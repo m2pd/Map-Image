@@ -1,0 +1,149 @@
+.tooltipster-custom {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.tooltipster-custom .tooltipster-box {
+  background-color: rgb(4, 116, 129);
+  padding: 10px;
+  border: none;
+}
+
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
+  border-top-color: rgb(4, 116, 129);
+}
+
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border {
+  border-top-color: rgb(4, 116, 129);
+  border-bottom-color: rgb(4, 116, 129);
+}
+
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
+  border-bottom-color: rgb(4, 116, 129);
+}
+
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border {
+  border-bottom-color: rgb(4, 116, 129);
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.wrap .col {
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1); */
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='%23D6D6D6FF' stroke-width='2' stroke-dasharray='4%2c 10' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+.wrap select {
+  display: block;
+  height: 30px;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border-color: none;
+}
+
+.wrap select {
+  position: absolute;
+  top: 32px;
+  right: 3%;
+  width: 120px;
+  height: 28px;
+  z-index: 99;
+}
+
+.card {
+  display: none;
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  object-fit: cover;
+  transition: 0.5s ease all;
+}
+
+.map-image {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.wrap .card.active {
+  display: block;
+  transition: 0.5s ease all;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+#selections {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #selections {
+    display: block;
+  }
+}
