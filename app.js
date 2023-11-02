@@ -444,6 +444,20 @@ const data = [
                   thumb: 'https://tasp.vn/uploads/classroom.jpg',
                 },
               },
+              {
+                src: 'https://tasp.vn/uploads/classroom2.jpg',
+                opts: {
+                  caption: 'Phòng Phòng đào tạo kỹ năng CNTT 02',
+                  thumb: 'https://tasp.vn/uploads/classroom2.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/classroom3.jpg',
+                opts: {
+                  caption: 'Phòng Phòng đào tạo kỹ năng CNTT 02',
+                  thumb: 'https://tasp.vn/uploads/classroom3.jpg',
+                },
+              },
             ],
           },
           room_2: {
