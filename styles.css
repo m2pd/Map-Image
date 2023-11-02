@@ -55,11 +55,16 @@
 
 .wrap select {
   position: absolute;
-  top: 32px;
+  top: -15px;
   right: 3%;
   width: 120px;
   height: 28px;
   z-index: 99;
+}
+
+.wrap select#offices {
+  right: 0;
+  left: 3%;
 }
 
 .card {
@@ -69,6 +74,20 @@
   max-width: 900px;
   object-fit: cover;
   transition: 0.5s ease all;
+}
+
+.wrap select.photos {
+  /* display: none; */
+}
+
+.wrap select.photos.active {
+  display: block;
+  transition: 0.5s ease all;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
 }
 
 .map-image {
