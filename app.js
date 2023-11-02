@@ -10,7 +10,12 @@ const data = [
         key: 'floor-1',
         data: {
           room_1: {
-            title: 'Phòng HV 08',
+            title: `
+              Phòng HV 08
+              <br />
+              <br />
+              Diện tích: 39m2
+            `,
             media: [
               // {
               //   src: 'https://scontent.fdad7-1.fna.fbcdn.net/v/t39.30808-6/396548650_826254149281004_3936210838155299195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mLNmZIvcDzkAX97FTqh&_nc_ht=scontent.fdad7-1.fna&oh=00_AfA8mQGEupB0rSQoNeNfY468OmxnRzVb9ZLmm5LXR0n1sQ&oe=654654A7',
@@ -29,7 +34,12 @@ const data = [
             ],
           },
           room_2: {
-            title: 'Phòng HV 07',
+            title: `
+            Phòng HV 07
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [
               // {
               //   src: 'https://scontent.fdad7-1.fna.fbcdn.net/v/t39.30808-6/396548650_826254149281004_3936210838155299195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mLNmZIvcDzkAX97FTqh&_nc_ht=scontent.fdad7-1.fna&oh=00_AfA8mQGEupB0rSQoNeNfY468OmxnRzVb9ZLmm5LXR0n1sQ&oe=654654A7',
@@ -48,43 +58,94 @@ const data = [
             ],
           },
           room_3: {
-            title: 'Phòng HV 06',
+            title: `
+            Phòng HV 06
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [],
           },
           room_4: {
-            title: 'Phòng HV 05',
+            title: `
+            Phòng HV 05
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [],
           },
           room_5: {
-            title: 'Phòng HV 04',
+            title: `
+            Phòng HV 04
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [],
           },
           room_6: {
-            title: 'Phòng HV 03',
+            title: `
+            Phòng HV 03
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [],
           },
           room_7: {
-            title: 'Phòng HV 02',
+            title: `
+            Phòng HV 02
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [],
           },
           room_8: {
-            title: 'Phòng HV 01',
+            title: `
+            Phòng HV 01
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
             media: [],
           },
           room_9: {
-            title: 'Phòng khách 84',
+            title: `
+            Phòng khách 84
+            <br />
+            <br />
+            Diện tích: 84m2
+            
+            `,
             media: [],
           },
           room_10: {
-            title: 'Phòng HV 11',
+            title: `
+            Phòng HV 11
+            <br />
+            <br />
+            Diện tích: 38m2
+          `,
             media: [],
           },
           room_11: {
-            title: 'Phòng HV 10',
+            title: `
+            Phòng HV 10
+            <br />
+            <br />
+            Diện tích: 38m2
+          `,
             media: [],
           },
           room_12: {
-            title: 'room_12',
+            title: `
+            Phòng HV 09
+            <br />
+            <br />
+            Diện tích: 38m2
+          `,
             media: [],
           },
           room_13: {
@@ -92,7 +153,7 @@ const data = [
             media: [],
           },
           room_14: {
-            title: 'Thang xem kt-th-01',
+            title: 'Thang thoát hiểm 01',
             media: [],
           },
           room_15: {
@@ -100,7 +161,12 @@ const data = [
             media: [],
           },
           room_16: {
-            title: 'Trực ban văn thư',
+            title: `
+            Trực ban văn thư
+            <br />
+            <br />
+            Diện tích: 30m2
+            `,
             media: [],
           },
           room_17: {
@@ -108,19 +174,39 @@ const data = [
             media: [],
           },
           room_18: {
-            title: 'Phòng kinh danh và quan hệ Khách hàng',
+            title: `
+            Phòng kinh danh và quan hệ Khách hàng
+            <br />
+            <br />
+            Diện tích: 50m2
+            `,
             media: [],
           },
           room_19: {
-            title: 'Phòng dịch vụ pháp lý',
+            title: `
+            Phòng dịch vụ pháp lý
+            <br />
+            <br />
+            Diện tích: 32m2
+            `,
             media: [],
           },
           room_20: {
-            title: 'Phòng hành chính tổng hợp',
+            title: `
+            Phòng hành chính tổng hợp
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_21: {
-            title: 'Phòng hội thảo',
+            title: `
+            Phòng hội thảo
+            <br />
+            <br />
+            Diện tích: 169m2
+            `,
             media: [],
           },
           room_22: {
@@ -136,7 +222,12 @@ const data = [
             media: [],
           },
           room_25: {
-            title: 'Sảnh giải lao',
+            title: `
+            Sảnh giải lao
+            <br />
+            <br />
+            Diện tích: 60m2
+            `,
             media: [],
           },
           room_27: {
@@ -161,11 +252,22 @@ const data = [
         key: 'floor-2',
         data: {
           room_1: {
-            title: 'Phòng phát triển ứng dụng trên thiết bị di động',
+            title: `
+            Phòng phát triển ứng dụng trên thiết bị di động
+            <br />
+            <br />
+            Diện tích: 84m2
+
+            `,
             media: [],
           },
           room_2: {
-            title: 'Phòng triển khai dự án phần mềm 03',
+            title: `
+            Phòng triển khai dự án phần mềm 03
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_3: {
@@ -173,11 +275,21 @@ const data = [
             media: [],
           },
           room_4: {
-            title: 'Phòng triển khai dự án phần mềm 02',
+            title: `
+            Phòng triển khai dự án phần mềm 02
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_5: {
-            title: 'Phòng triển khai dự án phần mềm 01',
+            title: `Phòng triển khai dự án phần mềm 01
+            <br />
+            <br />
+            Diện tích: 84m2
+            
+            `,
             media: [],
           },
           room_6: {
@@ -185,7 +297,11 @@ const data = [
             media: [],
           },
           room_7: {
-            title: 'Phòng khách chỉ huy',
+            title: `Phòng khách chỉ huy
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [
               // {
               //   src: 'https://scontent.fdad7-1.fna.fbcdn.net/v/t39.30808-6/396548650_826254149281004_3936210838155299195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mLNmZIvcDzkAX97FTqh&_nc_ht=scontent.fdad7-1.fna&oh=00_AfA8mQGEupB0rSQoNeNfY468OmxnRzVb9ZLmm5LXR0n1sQ&oe=654654A7',
@@ -204,7 +320,12 @@ const data = [
             ],
           },
           room_8: {
-            title: 'Phòng đào tạo vào hợp tác quốc tế',
+            title: `
+            Phòng đào tạo vào hợp tác quốc tế
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_9: {
@@ -212,19 +333,40 @@ const data = [
             media: [],
           },
           room_10: {
-            title: 'Ban tài chính',
+            title: `
+            Ban tài chính
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
             media: [],
           },
           room_11: {
-            title: 'Ban chính trị',
+            title: `
+            Ban chính trị
+            <br />
+            <br />
+            Diện tích: 42m2
+
+            `,
             media: [],
           },
           room_12: {
-            title: 'Phó chủ tịch hội đồng quản lý',
+            title: `
+            Phó chủ tịch hội đồng quản lý
+            <br />
+            <br />
+            Diện tích: 38m2
+            `,
             media: [],
           },
           room_13: {
-            title: 'Giám đốc',
+            title: `
+            Giám đốc
+            <br />
+            <br />
+            Diện tích: 38m2
+            `,
             media: [],
           },
           room_14: {
@@ -252,15 +394,30 @@ const data = [
             media: [],
           },
           room_20: {
-            title: 'Phó Giám đốc',
+            title: `
+            Phó Giám đốc
+            <br />
+            <br />
+            Diện tích: 26m2
+            `,
             media: [],
           },
           room_21: {
-            title: 'Phó Giám đốc',
+            title: `
+            Phó Giám đốc
+            <br />
+            <br />
+            Diện tích: 28m2
+            `,
             media: [],
           },
           room_22: {
-            title: 'Phòng nghiên cứu phát triển và chuyển giao công nghệ',
+            title: `
+            Phòng nghiên cứu phát triển và chuyển giao công nghệ
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
             media: [],
           },
           room_23: {
@@ -273,11 +430,29 @@ const data = [
         key: 'floor-3',
         data: {
           room_1: {
-            title: 'Phòng đào tạo kỹ năng CNTT 02',
-            media: [],
+            title: `
+            Phòng đào tạo kỹ năng CNTT 02
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/classroom.jpg',
+                opts: {
+                  caption: 'Phòng Phòng đào tạo kỹ năng CNTT 02',
+                  thumb: 'https://tasp.vn/uploads/classroom.jpg',
+                },
+              },
+            ],
           },
           room_2: {
-            title: 'Phòng đào tạo kỹ năng CNTT 02',
+            title: `
+            Phòng đào tạo kỹ năng CNTT 01
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_3: {
@@ -285,15 +460,29 @@ const data = [
             media: [],
           },
           room_4: {
-            title: 'Phòng đào tạo an toàn ANTT 02',
+            title: `
+            Phòng đào tạo an toàn ANTT 02
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_5: {
-            title: 'Phòng thi tiếng anh CNTT trực tuyến',
+            title: `
+            Phòng thi tiếng anh CNTT trực tuyến
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_6: {
-            title: 'Phòng đào tạo an toàn ANTT 01',
+            title: `Phòng đào tạo an toàn ANTT 01
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_7: {
@@ -301,19 +490,38 @@ const data = [
             media: [],
           },
           room_8: {
-            title: 'Phòng đào tạo Tác chiến không gian mạng 02',
+            title: `
+            Phòng đào tạo Tác chiến không gian mạng 02
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_9: {
-            title: 'Phòng đào tạo Tác chiến không gian mạng 01',
+            title: `
+            Phòng đào tạo Tác chiến không gian mạng 01
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_10: {
-            title: 'Phòng thảo luận giáo viên',
+            title: `Phòng thảo luận giáo viên
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
             media: [],
           },
           room_11: {
-            title: 'Phòng đào tạo tiếng anh 02',
+            title: `
+            Phòng đào tạo tiếng anh 02
+            <br />
+            <br />
+            Diện tích: 63m2
+            `,
             media: [],
           },
           room_12: {
@@ -341,11 +549,20 @@ const data = [
             media: [],
           },
           room_18: {
-            title: 'Phòng thảo luận giáo viên',
+            title: `Phòng thảo luận giáo viên
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
             media: [],
           },
           room_19: {
-            title: 'Phòng đào tạo tiếng anh 01',
+            title: `
+            Phòng đào tạo tiếng anh 01
+            <br />
+            <br />
+            Diện tích: 85m2
+            `,
             media: [],
           },
         },
@@ -354,7 +571,12 @@ const data = [
         key: 'floor-4',
         data: {
           room_1: {
-            title: 'Đào tạo lập trình nhúng',
+            title: `
+            Đào tạo lập trình nhúng
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_2: {
@@ -362,7 +584,12 @@ const data = [
             media: [],
           },
           room_3: {
-            title: 'Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM',
+            title: `
+            Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM
+            <br />
+            <br />
+            Diện tích: 255m2
+            `,
             media: [],
           },
           room_4: {
@@ -370,11 +597,21 @@ const data = [
             media: [],
           },
           room_5: {
-            title: 'Đào tạo lập trình ứng dụng',
+            title: `
+            Đào tạo lập trình nhúng
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_6: {
-            title: 'Đào tạo quản trị mạng và hệ thống',
+            title: `
+            Đào tạo quản trị mạng và hệ thống
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
             media: [],
           },
           room_7: {
@@ -402,7 +639,12 @@ const data = [
             media: [],
           },
           room_13: {
-            title: 'Đào tạo trực tuyến',
+            title: `
+            Đào tạo trực tuyến
+            <br />
+            <br />
+            Diện tích: 63m2
+            `,
             media: [],
           },
           room_14: {
@@ -415,15 +657,52 @@ const data = [
         key: 'floor-5',
         data: {
           room_1: {
-            title: 'CIVIL SERVER FARM',
-            media: [],
+            title: `
+            CIVIL SERVER FARM
+            <br />
+            <br />
+            Diện tích: 278m2
+            `,
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/datacenter.jpg',
+                opts: {
+                  caption: 'Phòng Datacenter',
+                  thumb: 'https://tasp.vn/uploads/datacenter.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/datacenter2.jpg',
+                opts: {
+                  caption: 'Phòng Datacenter',
+                  thumb: 'https://tasp.vn/uploads/datacenter2.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/datacenter3.jpg',
+                opts: {
+                  caption: 'Phòng Datacenter',
+                  thumb: 'https://tasp.vn/uploads/datacenter3.jpg',
+                },
+              },
+            ],
           },
           room_2: {
-            title: 'MIUTARY SERVER FARM',
+            title: `
+            MIUTARY SERVER FARM
+            <br />
+            <br />
+            Diện tích: 150m2
+            `,
             media: [],
           },
           room_3: {
-            title: 'PHÒNG HỌP',
+            title: `
+            PHÒNG HỌP
+            <br />
+            <br />
+            Diện tích: 22m2
+            `,
             media: [],
           },
           room_4: {
@@ -431,7 +710,12 @@ const data = [
             media: [],
           },
           room_5: {
-            title: 'KHO KỸ THUẬT',
+            title: `
+            KHO KỸ THUẬT
+            <br />
+            <br />
+            Diện tích: 22m2
+            `,
             media: [],
           },
           room_6: {
@@ -447,11 +731,16 @@ const data = [
             media: [],
           },
           room_9: {
-            title: 'PHÒNG LÀM VIỆC',
+            title: 'CẦU THANG',
             media: [],
           },
           room_10: {
-            title: 'PHÒNG LÀM VIỆC',
+            title: `
+            PHÒNG LÀM VIỆC
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
             media: [],
           },
         },
@@ -460,19 +749,39 @@ const data = [
         key: 'floor-6',
         data: {
           room_1: {
-            title: 'BATTERY FARM',
+            title: `
+            BATTERY FARM
+            <br />
+            <br />
+            Diện tích: 92m2
+            `,
             media: [],
           },
           room_2: {
-            title: 'UPS ROOM',
+            title: `
+            UPS ROOM
+            <br />
+            <br />
+            Diện tích: 32m2
+            `,
             media: [],
           },
           room_3: {
-            title: 'CIVIL SNOC',
+            title: `
+            CIVIL SNOC
+            <br />
+            <br />
+            Diện tích: 62m2
+            `,
             media: [],
           },
           room_4: {
-            title: 'MILITARY SNOC',
+            title: `
+            MILITARY SNOC
+            <br />
+            <br />
+            Diện tích: 62m2
+            `,
             media: [],
           },
           room_5: {
