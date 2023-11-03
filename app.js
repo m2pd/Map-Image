@@ -1,7 +1,31 @@
 const data = [
   {
     offices: '1a',
-    floor: [],
+    floor: [
+      {
+        key: 'floor-1',
+        data: {
+          room_1: {
+            title: `
+            Phòng HV 08 1A
+            <br />
+            <br />
+            Diện tích: 39m2
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+          Phòng HV 07 1A
+          <br />
+          <br />
+          Diện tích: 39m2
+        `,
+            media: [],
+          },
+        },
+      },
+    ],
   },
   {
     offices: '1b',
@@ -16,22 +40,7 @@ const data = [
               <br />
               Diện tích: 39m2
             `,
-            media: [
-              // {
-              //   src: 'https://scontent.fdad7-1.fna.fbcdn.net/v/t39.30808-6/396548650_826254149281004_3936210838155299195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mLNmZIvcDzkAX97FTqh&_nc_ht=scontent.fdad7-1.fna&oh=00_AfA8mQGEupB0rSQoNeNfY468OmxnRzVb9ZLmm5LXR0n1sQ&oe=654654A7',
-              //   opts: {
-              //     caption: 'First caption',
-              //     thumb: '1_s.jpg',
-              //   },
-              // },
-              // {
-              //   src: 'https://scontent.fdad7-2.fna.fbcdn.net/v/t39.30808-6/395621414_3227335997559385_6771990558301914327_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rTnxUbT3GUoAX8gjky9&_nc_ht=scontent.fdad7-2.fna&oh=00_AfCIPZf1S3KccJIuviGduM4qv5xuZX_AIXuLsmOrvmhjbw&oe=654796BD',
-              //   opts: {
-              //     caption: 'Second caption',
-              //     thumb: '2_s.jpg',
-              //   },
-              // },
-            ],
+            media: [],
           },
           room_2: {
             title: `
@@ -40,22 +49,7 @@ const data = [
             <br />
             Diện tích: 39m2
           `,
-            media: [
-              // {
-              //   src: 'https://scontent.fdad7-1.fna.fbcdn.net/v/t39.30808-6/396548650_826254149281004_3936210838155299195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mLNmZIvcDzkAX97FTqh&_nc_ht=scontent.fdad7-1.fna&oh=00_AfA8mQGEupB0rSQoNeNfY468OmxnRzVb9ZLmm5LXR0n1sQ&oe=654654A7',
-              //   opts: {
-              //     caption: 'First caption',
-              //     thumb: '1_s.jpg',
-              //   },
-              // },
-              // {
-              //   src: 'https://scontent.fdad7-2.fna.fbcdn.net/v/t39.30808-6/395621414_3227335997559385_6771990558301914327_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rTnxUbT3GUoAX8gjky9&_nc_ht=scontent.fdad7-2.fna&oh=00_AfCIPZf1S3KccJIuviGduM4qv5xuZX_AIXuLsmOrvmhjbw&oe=654796BD',
-              //   opts: {
-              //     caption: 'Second caption',
-              //     thumb: '2_s.jpg',
-              //   },
-              // },
-            ],
+            media: [],
           },
           room_3: {
             title: `
@@ -824,7 +818,479 @@ const data = [
   },
   {
     offices: '1c',
-    floor: [],
+    floor: [
+      {
+        key: 'floor-1',
+        data: {
+          room_1: {
+            title: `
+            Hội trường 300 chỗ
+            <br />
+            <br />
+            Diện tích: 320m2
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+            Khu thư viện
+            <br />
+            <br />
+            Diện tích: 259m2
+        `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            Sảnh giải lao
+          `,
+            media: [],
+          },
+          room_4: {
+            title: `
+            Phòng hội thảo
+            <br />
+            <br />
+            Diện tích: 64m2
+          `,
+            media: [],
+          },
+          room_5: {
+            title: `Sảnh khu hợp tác NCPT`,
+            media: [],
+          },
+          room_6: {
+            title: `
+            Khu trưng bày sản phẩm
+            <br />
+            <br />
+            Diện tích: 259m2
+            `,
+            media: [],
+          },
+          room_7: {
+            title: `
+            Phòng kho tổng hợp
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
+            media: [],
+          },
+          room_8: {
+            title: `
+            P. giáo vụ quản lý học viên
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
+            media: [],
+          },
+          room_9: {
+            title: `
+            P. sinh hoạt chung
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
+            media: [],
+          },
+          room_10: {
+            title: `
+            P. quản lý kỹ thuật
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
+            media: [],
+          },
+          room_11: {
+            title: `
+            Cầu thang bộ
+            `,
+            media: [],
+          },
+          room_12: {
+            title: `Hành lang`,
+            media: [],
+          },
+          room_13: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_14: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_15: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_16: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_17: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_18: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-2',
+        data: {
+          room_1: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 346m2
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 110m2
+        `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 346m2
+          `,
+            media: [],
+          },
+          room_4: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 133m2
+          `,
+            media: [],
+          },
+          room_5: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_6: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_7: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_8: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_9: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_10: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_11: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_12: {
+            title: `Hành lang`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-3',
+        data: {
+          room_1: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 346m2
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 110m2
+        `,
+            media: [],
+          },
+          room_3: {
+            title: `Sân mái`,
+            media: [],
+          },
+          room_4: {
+            title: `Chỗ nghỉ giải lao`,
+            media: [],
+          },
+          room_5: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 346m2
+        `,
+            media: [],
+          },
+          room_6: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 133m2
+        `,
+            media: [],
+          },
+          room_7: {
+            title: `Hành lang`,
+            media: [],
+          },
+          room_8: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_9: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_10: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_11: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_12: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_13: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-4',
+        data: {
+          room_1: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 259m2
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+            Chổ nghỉ giải lao
+        `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 259m2
+          `,
+            media: [],
+          },
+          room_4: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 84m2
+          `,
+            media: [],
+          },
+          room_5: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_6: {
+            title: `Hành lang`,
+            media: [],
+          },
+          room_7: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_8: {
+            title: `Sảnh`,
+            media: [],
+          },
+          room_9: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_10: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_11: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_12: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 84m2
+          `,
+            media: [],
+          },
+          room_13: {
+            title: `Hành lang`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-5',
+        data: {
+          room_1: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 426M2
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+            Khu hợp tác NCPM
+            <br />
+            <br />
+            Diện tích: 42M2
+        `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            Cầu thang bộ
+          `,
+            media: [],
+          },
+          room_4: {
+            title: `
+            Hành lang
+          `,
+            media: [],
+          },
+          room_5: {
+            title: `Sảnh`,
+            media: [],
+          },
+          room_6: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_7: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_8: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_9: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_10: {
+            title: `Kho
+            <br />
+            <br />
+            Diện tích: 21M2
+            
+            `,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-6',
+        data: {
+          room_1: {
+            title: `
+            Phòng nghỉ chuyên gia 01
+          `,
+            media: [],
+          },
+          room_2: {
+            title: `
+            Phòng nghỉ chuyên gia 02
+        `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            Phòng nghỉ chuyên gia 03
+          `,
+            media: [],
+          },
+          room_4: {
+            title: `
+            Phòng nghỉ chuyên gia 04
+          `,
+            media: [],
+          },
+          room_5: {
+            title: `Phòng nghỉ chuyên gia 05`,
+            media: [],
+          },
+          room_6: {
+            title: `Phòng nghỉ chuyên gia 06`,
+            media: [],
+          },
+          room_7: {
+            title: `Phòng ngủ Master`,
+            media: [],
+          },
+          room_8: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_9: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_10: {
+            title: `Hành lang`,
+            media: [],
+          },
+          room_10: {
+            title: `Sảnh`,
+            media: [],
+          },
+        },
+      },
+    ],
   },
 ];
 
@@ -881,7 +1347,9 @@ const initLoadData = () => {
 
   for (const office of data) {
     for (const floorData of office.floor) {
-      const _querySelector = $(`#${floorData.key}`);
+      const _querySelector = $(`#${office.offices}-${floorData.key}`);
+      // console.log(`#${office.offices}-${floorData.key}`);
+
       const listKeyStyle = [];
       for (const [key, value] of Object.entries(floorData.data)) {
         if (value.media.length > 0) {
@@ -890,6 +1358,15 @@ const initLoadData = () => {
       }
       _querySelector.mapster(handlerMapster(floorData.data, listKeyStyle));
     }
+  }
+
+  // Reset Select
+  originGroupFloor = $('#offices').val();
+
+  if (originGroupFloor !== 'office-0') {
+    $('#photos').addClass('active');
+  } else {
+    $('#photos').removeClass('active');
   }
 };
 
@@ -993,9 +1470,6 @@ const handlerMapsterFloor0 = (contentFloor) => {
       }
     },
     onClick: function (e) {
-      // console.log(e);
-      // console.log($('#offices').val());
-      // return;
       const valueSelect = e.key.split('_')[1] || 0;
       $('#photos')
         .val('photo-' + valueSelect)
@@ -1040,8 +1514,9 @@ const handlerMapsterOffice = (contentFloor) => {
       $(this).tooltipster('close');
     },
     onClick: function (e) {
+      console.log('Click::', e);
+
       const valueSelect = e.key.split('_')[1] || 0;
-      // console.log('valueSelect::', valueSelect);
       $('#offices')
         .val('office-' + valueSelect)
         .change();
@@ -1054,9 +1529,6 @@ $(document).ready(function () {
   floorOffice.mapster(handlerMapsterOffice(content_floor_office));
 
   $('#offices').change(function () {
-    // console.log($('#offices').val());
-    //
-
     _data_office = $('option:selected', this).data('office');
     $('.active').removeClass('active');
     $(_data_office).addClass('active');
@@ -1069,10 +1541,13 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   initLoadData();
+
   $('#photos').change(function () {
     _data_image = $('option:selected', this).data('image');
+    originGroupFloor = $('#offices').val();
+
     $('.active').removeClass('active');
-    $(_data_image).addClass('active');
+    $(`#group-${originGroupFloor} ${_data_image}`).addClass('active');
     initLoadData();
   });
 });
