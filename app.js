@@ -165,7 +165,15 @@ const data = [
           },
           room_17: {
             title: 'Sảnh tầng 1',
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/sanhchinh.jpg',
+                opts: {
+                  caption: 'Sảnh chính tầng 1',
+                  thumb: 'https://tasp.vn/uploads/sanhchinh.jpg',
+                },
+              },
+            ],
           },
           room_18: {
             title: `
@@ -829,7 +837,22 @@ const data = [
             <br />
             Diện tích: 320m2
           `,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/hoitruong300cho.jpg',
+                opts: {
+                  caption: 'Hội trường 300 chỗ',
+                  thumb: 'https://tasp.vn/uploads/hoitruong300cho.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/hoitruong300cho2.jpg',
+                opts: {
+                  caption: 'Hội trường 300 chỗ',
+                  thumb: 'https://tasp.vn/uploads/hoitruong300cho2.jpg',
+                },
+              },
+            ],
           },
           room_2: {
             title: `
@@ -853,7 +876,22 @@ const data = [
             <br />
             Diện tích: 64m2
           `,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/hoithao.jpg',
+                opts: {
+                  caption: 'Phòng hội thảo',
+                  thumb: 'https://tasp.vn/uploads/hoithao.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/hoithao2.jpg',
+                opts: {
+                  caption: 'Phòng hội thảo',
+                  thumb: 'https://tasp.vn/uploads/hoithao2.jpg',
+                },
+              },
+            ],
           },
           room_5: {
             title: `Sảnh khu hợp tác NCPT`,
@@ -912,7 +950,15 @@ const data = [
           },
           room_12: {
             title: `Hành lang`,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/hanhlang.jpg',
+                opts: {
+                  caption: 'Hành lang',
+                  thumb: 'https://tasp.vn/uploads/hanhlang.jpg',
+                },
+              },
+            ],
           },
           room_13: {
             title: `Cầu thang bộ`,
@@ -950,7 +996,15 @@ const data = [
             <br />
             Diện tích: 346m2
           `,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/ncpm.jpg',
+                opts: {
+                  caption: 'Khu hợp tác NCPM',
+                  thumb: 'https://tasp.vn/uploads/ncpm.jpg',
+                },
+              },
+            ],
           },
           room_2: {
             title: `
@@ -1023,7 +1077,15 @@ const data = [
             <br />
             Diện tích: 346m2
           `,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/ncpm.jpg',
+                opts: {
+                  caption: 'Khu hợp tác NCPM',
+                  thumb: 'https://tasp.vn/uploads/ncpm.jpg',
+                },
+              },
+            ],
           },
           room_2: {
             title: `
@@ -1073,18 +1135,14 @@ const data = [
             media: [],
           },
           room_10: {
-            title: `Thang máy`,
-            media: [],
-          },
-          room_11: {
             title: `Nhà vệ sinh`,
             media: [],
           },
-          room_12: {
+          room_11: {
             title: `Thang máy`,
             media: [],
           },
-          room_13: {
+          room_12: {
             title: `Cầu thang bộ`,
             media: [],
           },
@@ -1100,7 +1158,15 @@ const data = [
             <br />
             Diện tích: 259m2
           `,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/ncpm.jpg',
+                opts: {
+                  caption: 'Khu hợp tác NCPM',
+                  thumb: 'https://tasp.vn/uploads/ncpm.jpg',
+                },
+              },
+            ],
           },
           room_2: {
             title: `
@@ -1179,7 +1245,15 @@ const data = [
             <br />
             Diện tích: 426M2
           `,
-            media: [],
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/ncpm.jpg',
+                opts: {
+                  caption: 'Khu hợp tác NCPM',
+                  thumb: 'https://tasp.vn/uploads/ncpm.jpg',
+                },
+              },
+            ],
           },
           room_2: {
             title: `
@@ -1284,7 +1358,7 @@ const data = [
             title: `Hành lang`,
             media: [],
           },
-          room_10: {
+          room_11: {
             title: `Sảnh`,
             media: [],
           },
@@ -1399,7 +1473,7 @@ const handlerMapster = (contentFloor, listKeyStyle) => {
         $(this).tooltipster({
           content: contentFloor[e.key].title, // Nội dung tooltip
           theme: 'tooltipster-custom', // Thay đổi theme theo ý muốn
-          trigger: 'click', // Hiển thị tooltip khi hover
+          trigger: 'hover', // Hiển thị tooltip khi hover
           interactive: true, // Cho phép tương tác với tooltip
           contentAsHTML: true, // Cho phép HTML trong tooltip content
           animation: 'grow',
@@ -1422,24 +1496,28 @@ const handlerMapster = (contentFloor, listKeyStyle) => {
 
       // fancybox.render('<h1>Hello, world!</h1>');
       // Fancybox.show([{ src: '#dialog-content', type: 'inline' }]);
-      if (media.matches) {
-        if (contentFloor[e.key].media.length > 0) {
-          handleActiveFancyBox(contentFloor[e.key].media);
-        }
-      }
-      if (!media.matches) {
-        // Cập nhật tooltip dựa trên area hiện tại
-        $(this).tooltipster({
-          content: contentFloor[e.key].title, // Nội dung tooltip
-          theme: 'tooltipster-custom', // Thay đổi theme theo ý muốn
-          trigger: 'click', // Hiển thị tooltip khi hover
-          interactive: true, // Cho phép tương tác với tooltip
-          contentAsHTML: true, // Cho phép HTML trong tooltip content
-          // animation: 'grow',
-        });
 
-        $(this).tooltipster('open');
+      if (contentFloor[e.key].media.length > 0) {
+        handleActiveFancyBox(contentFloor[e.key].media);
       }
+
+      // if (media.matches) {
+      //   if (contentFloor[e.key].media.length > 0) {
+      //     handleActiveFancyBox(contentFloor[e.key].media);
+      //   }
+      // }
+      // if (!media.matches) {
+      //   $(this).tooltipster({
+      //     content: contentFloor[e.key].title, // Nội dung tooltip
+      //     theme: 'tooltipster-custom', // Thay đổi theme theo ý muốn
+      //     trigger: 'click', // Hiển thị tooltip khi hover
+      //     interactive: true, // Cho phép tương tác với tooltip
+      //     contentAsHTML: true, // Cho phép HTML trong tooltip content
+      //     animation: 'grow',
+      //   });
+
+      //   $(this).tooltipster('open');
+      // }
     },
   };
 };
@@ -1453,7 +1531,7 @@ const handlerMapsterFloor0 = (contentFloor) => {
         $(this).tooltipster({
           content: contentFloor[e.key], // Nội dung tooltip
           theme: 'tooltipster-custom', // Thay đổi theme theo ý muốn
-          trigger: 'click', // Hiển thị tooltip khi hover
+          trigger: 'hover', // Hiển thị tooltip khi hover
           interactive: true, // Cho phép tương tác với tooltip
           contentAsHTML: true, // Cho phép HTML trong tooltip content
           animation: 'grow',

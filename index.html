@@ -23,210 +23,79 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="wrap">
-      <div class="col">
-        <select id="photos" class="photos">
-          <!-- <option value="photo-0" data-image="#opt-0" selected>Toà nhà</option> -->
-          <option value="photo-1" data-image="#opt-1">Tầng 1</option>
-          <option value="photo-2" data-image="#opt-2">Tầng 2</option>
-          <option value="photo-3" data-image="#opt-3">Tầng 3</option>
-          <option value="photo-4" data-image="#opt-4">Tầng 4</option>
-          <option value="photo-5" data-image="#opt-5">Tầng 5</option>
-          <option value="photo-6" data-image="#opt-6">Tầng 6</option>
-          <!-- <option value="photo-7" data-image="#opt-7">Tầng 7</option> -->
-        </select>
-
-        <select id="offices">
-          <option value="office-0" data-office="#off-0" selected>
-            Tổng quan
-          </option>
-          <option value="office-1" data-office="#off-1">Toà nhà 1A</option>
-          <option value="office-2" data-office="#off-2">Toà nhà 1B</option>
-          <option value="office-3" data-office="#off-3">Toà nhà 1C</option>
-          <!-- <option value="office-4" data-office="#off-4">
-            Toà nhà Mặc định
-          </option> -->
-        </select>
-
-        <div class="card active" id="off-0">
-          <img
-            class="image"
-            src="images/full_offices.jpg"
-            id="floor-office"
-            usemap="#floor-office"
-          />
-
-          <map name="floor-office">
-            <area
-              target=""
-              alt="1A"
-              title="1A"
-              href=""
-              coords="1053,848,1055,728,1153,611,1144,572,1083,552,1076,507,1022,489,1015,446,969,432,951,373,902,349,888,317,786,324,789,346,614,353,642,660,714,737,804,794,931,830"
-              shape="poly"
-              name="room_1"
-            />
-            <area
-              target=""
-              alt="1B"
-              title="1B"
-              href=""
-              coords="1087,547,1166,538,1221,535,1276,535,1381,549,1381,511,1427,492,1444,478,1441,445,1491,423,1491,385,1496,352,1507,322,1433,308,1438,275,1356,269,1361,234,1106,231,1106,269,1029,278,1024,305,958,324,952,343,960,365,966,382,966,412,974,428,1015,442,1021,459,1024,478,1048,489,1076,500"
-              shape="poly"
-              name="room_2"
-            />
-            <area
-              target=""
-              alt="1C"
-              title="1C"
-              href=""
-              coords="1406,849,1410,696,1311,596,1318,562,1386,549,1386,510,1444,490,1444,451,1494,424,1503,352,1546,336,1836,352,1847,381,1842,411,1827,531,1815,641,1793,698,1743,741,1698,768,1634,797,1537,824"
-              shape="poly"
-              name="room_3"
-            />
-          </map>
-        </div>
-        <div class="card" id="off-2">
-          <img
-            class="image"
-            src="images/1B.jpg"
-            id="floor-1B"
-            usemap="#floor-1B"
-          />
-
-          <map name="floor-1B">
-            <area
-              target=""
-              alt="Tầng 1"
-              title="Tầng 1"
-              href=""
-              coords="-1,862,375,889,1173,932,1682,921,2016,898,2555,858,2532,1149,1847,1113,1386,1102,1146,1106,829,1113,452,1104,207,1106,8,1120"
-              shape="poly"
-              name="room_1"
-            />
-            <area
-              target=""
-              alt="Tầng 2"
-              title="Tầng 2"
-              href=""
-              coords="361,705,755,781,988,804,1220,815,1469,810,1799,776,2089,731,2552,631,2557,853,1587,923,1137,930,632,903,210,880,4,858,4,648"
-              shape="poly"
-              name="room_2"
-            />
-            <area
-              target=""
-              alt="Tầng 3"
-              title="Tầng 3"
-              href=""
-              coords="361,698,456,603,653,630,861,677,1067,698,1279,707,1526,698,1772,662,1912,630,2007,745,1693,788,1404,811,1087,811,675,766"
-              shape="poly"
-              name="room_3"
-            />
-            <area
-              target=""
-              alt="Tầng 4"
-              title="Tầng 4"
-              href=""
-              coords="628,622,678,527,926,577,1135,607,1343,609,1562,589,1734,564,1765,663,1533,695,1306,708,1112,702,936,686,804,663"
-              shape="poly"
-              name="room_4"
-            />
-            <area
-              target=""
-              alt="Tầng 5"
-              title="Tầng 5"
-              href=""
-              coords="827,553,850,462,985,489,1157,512,1311,514,1481,501,1548,494,1585,503,1591,584,1419,602,1232,611,1101,600,994,591"
-              shape="poly"
-              name="room_5"
-            />
-            <area
-              target=""
-              alt="Tầng 6"
-              title="Tầng 6"
-              href=""
-              coords="983,483,1001,413,1053,413,1193,427,1352,431,1438,431,1449,497,1338,515,1180,512,1067,501"
-              shape="poly"
-              name="room_6"
-            />
-          </map>
-        </div>
-        <div class="card" id="off-3">
-          <img
-            class="image"
-            src="images/1C.jpg"
-            id="floor-1C"
-            usemap="#floor-1C"
-          />
-
-          <map name="floor-1C">
-            <area
-              target=""
-              alt="Tầng 1"
-              title="Tầng 1"
-              href=""
-              coords="-1,862,375,889,1173,932,1682,921,2016,898,2555,858,2532,1149,1847,1113,1386,1102,1146,1106,829,1113,452,1104,207,1106,8,1120"
-              shape="poly"
-              name="room_1"
-            />
-            <area
-              target=""
-              alt="Tầng 2"
-              title="Tầng 2"
-              href=""
-              coords="361,705,755,781,988,804,1220,815,1469,810,1799,776,2089,731,2552,631,2557,853,1587,923,1137,930,632,903,210,880,4,858,4,648"
-              shape="poly"
-              name="room_2"
-            />
-            <area
-              target=""
-              alt="Tầng 3"
-              title="Tầng 3"
-              href=""
-              coords="361,698,456,603,653,630,861,677,1067,698,1279,707,1526,698,1772,662,1912,630,2007,745,1693,788,1404,811,1087,811,675,766"
-              shape="poly"
-              name="room_3"
-            />
-            <area
-              target=""
-              alt="Tầng 4"
-              title="Tầng 4"
-              href=""
-              coords="628,622,678,527,926,577,1135,607,1343,609,1562,589,1734,564,1765,663,1533,695,1306,708,1112,702,936,686,804,663"
-              shape="poly"
-              name="room_4"
-            />
-            <area
-              target=""
-              alt="Tầng 5"
-              title="Tầng 5"
-              href=""
-              coords="827,553,850,462,985,489,1157,512,1311,514,1481,501,1548,494,1585,503,1591,584,1419,602,1232,611,1101,600,994,591"
-              shape="poly"
-              name="room_5"
-            />
-            <area
-              target=""
-              alt="Tầng 6"
-              title="Tầng 6"
-              href=""
-              coords="983,483,1001,413,1053,413,1193,427,1352,431,1438,431,1449,497,1338,515,1180,512,1067,501"
-              shape="poly"
-              name="room_6"
-            />
-          </map>
-        </div>
-
-        <div id="group-office-0">
-          <div class="card" id="off-1">
+    <section id="section-image-map">
+      <div class="wrap">
+        <div class="col">
+          <select id="photos" class="photos">
+            <!-- <option value="photo-0" data-image="#opt-0" selected>Toà nhà</option> -->
+            <option value="photo-1" data-image="#opt-1">Tầng 1</option>
+            <option value="photo-2" data-image="#opt-2">Tầng 2</option>
+            <option value="photo-3" data-image="#opt-3">Tầng 3</option>
+            <option value="photo-4" data-image="#opt-4">Tầng 4</option>
+            <option value="photo-5" data-image="#opt-5">Tầng 5</option>
+            <option value="photo-6" data-image="#opt-6">Tầng 6</option>
+            <!-- <option value="photo-7" data-image="#opt-7">Tầng 7</option> -->
+          </select>
+  
+          <select id="offices">
+            <option value="office-0" data-office="#off-0" selected>
+              Tổng quan
+            </option>
+            <option value="office-1" data-office="#off-1">Toà nhà 1A</option>
+            <option value="office-2" data-office="#off-2">Toà nhà 1B</option>
+            <option value="office-3" data-office="#off-3">Toà nhà 1C</option>
+            <!-- <option value="office-4" data-office="#off-4">
+              Toà nhà Mặc định
+            </option> -->
+          </select>
+  
+          <div class="card active" id="off-0">
             <img
               class="image"
-              src="images/1A.jpg"
-              id="floor-1A"
-              usemap="#floor-1A"
+              src="images/full_offices.jpg"
+              id="floor-office"
+              usemap="#floor-office"
             />
-
-            <map name="floor-1A">
+  
+            <map name="floor-office">
+              <area
+                target=""
+                alt="1A"
+                title="1A"
+                href=""
+                coords="1053,848,1055,728,1153,611,1144,572,1083,552,1076,507,1022,489,1015,446,969,432,951,373,902,349,888,317,786,324,789,346,614,353,642,660,714,737,804,794,931,830"
+                shape="poly"
+                name="room_1"
+              />
+              <area
+                target=""
+                alt="1B"
+                title="1B"
+                href=""
+                coords="1087,547,1166,538,1221,535,1276,535,1381,549,1381,511,1427,492,1444,478,1441,445,1491,423,1491,385,1496,352,1507,322,1433,308,1438,275,1356,269,1361,234,1106,231,1106,269,1029,278,1024,305,958,324,952,343,960,365,966,382,966,412,974,428,1015,442,1021,459,1024,478,1048,489,1076,500"
+                shape="poly"
+                name="room_2"
+              />
+              <area
+                target=""
+                alt="1C"
+                title="1C"
+                href=""
+                coords="1406,849,1410,696,1311,596,1318,562,1386,549,1386,510,1444,490,1444,451,1494,424,1503,352,1546,336,1836,352,1847,381,1842,411,1827,531,1815,641,1793,698,1743,741,1698,768,1634,797,1537,824"
+                shape="poly"
+                name="room_3"
+              />
+            </map>
+          </div>
+          <div class="card" id="off-2">
+            <img
+              class="image"
+              src="images/1B.jpg"
+              id="floor-1B"
+              usemap="#floor-1B"
+            />
+  
+            <map name="floor-1B">
               <area
                 target=""
                 alt="Tầng 1"
@@ -283,1427 +152,1561 @@
               />
             </map>
           </div>
-        </div>
-
-        <div id="group-office-1">
-          <div class="card" id="opt-1">
-            <div style="width: 100%">
-              <img src="images/1.png" id="1a-floor-1" usemap="#1a-floor-1" />
+          <div class="card" id="off-3">
+            <img
+              class="image"
+              src="images/1C.jpg"
+              id="floor-1C"
+              usemap="#floor-1C"
+            />
+  
+            <map name="floor-1C">
+              <area
+                target=""
+                alt="Tầng 1"
+                title="Tầng 1"
+                href=""
+                coords="-1,862,375,889,1173,932,1682,921,2016,898,2555,858,2532,1149,1847,1113,1386,1102,1146,1106,829,1113,452,1104,207,1106,8,1120"
+                shape="poly"
+                name="room_1"
+              />
+              <area
+                target=""
+                alt="Tầng 2"
+                title="Tầng 2"
+                href=""
+                coords="361,705,755,781,988,804,1220,815,1469,810,1799,776,2089,731,2552,631,2557,853,1587,923,1137,930,632,903,210,880,4,858,4,648"
+                shape="poly"
+                name="room_2"
+              />
+              <area
+                target=""
+                alt="Tầng 3"
+                title="Tầng 3"
+                href=""
+                coords="361,698,456,603,653,630,861,677,1067,698,1279,707,1526,698,1772,662,1912,630,2007,745,1693,788,1404,811,1087,811,675,766"
+                shape="poly"
+                name="room_3"
+              />
+              <area
+                target=""
+                alt="Tầng 4"
+                title="Tầng 4"
+                href=""
+                coords="628,622,678,527,926,577,1135,607,1343,609,1562,589,1734,564,1765,663,1533,695,1306,708,1112,702,936,686,804,663"
+                shape="poly"
+                name="room_4"
+              />
+              <area
+                target=""
+                alt="Tầng 5"
+                title="Tầng 5"
+                href=""
+                coords="827,553,850,462,985,489,1157,512,1311,514,1481,501,1548,494,1585,503,1591,584,1419,602,1232,611,1101,600,994,591"
+                shape="poly"
+                name="room_5"
+              />
+              <area
+                target=""
+                alt="Tầng 6"
+                title="Tầng 6"
+                href=""
+                coords="983,483,1001,413,1053,413,1193,427,1352,431,1438,431,1449,497,1338,515,1180,512,1067,501"
+                shape="poly"
+                name="room_6"
+              />
+            </map>
+          </div>
+  
+          <div id="group-office-0">
+            <div class="card" id="off-1">
+              <img
+                class="image"
+                src="images/1A.jpg"
+                id="floor-1A"
+                usemap="#floor-1A"
+              />
+  
+              <map name="floor-1A">
+                <area
+                  target=""
+                  alt="Tầng 1"
+                  title="Tầng 1"
+                  href=""
+                  coords="-1,862,375,889,1173,932,1682,921,2016,898,2555,858,2532,1149,1847,1113,1386,1102,1146,1106,829,1113,452,1104,207,1106,8,1120"
+                  shape="poly"
+                  name="room_1"
+                />
+                <area
+                  target=""
+                  alt="Tầng 2"
+                  title="Tầng 2"
+                  href=""
+                  coords="361,705,755,781,988,804,1220,815,1469,810,1799,776,2089,731,2552,631,2557,853,1587,923,1137,930,632,903,210,880,4,858,4,648"
+                  shape="poly"
+                  name="room_2"
+                />
+                <area
+                  target=""
+                  alt="Tầng 3"
+                  title="Tầng 3"
+                  href=""
+                  coords="361,698,456,603,653,630,861,677,1067,698,1279,707,1526,698,1772,662,1912,630,2007,745,1693,788,1404,811,1087,811,675,766"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="Tầng 4"
+                  title="Tầng 4"
+                  href=""
+                  coords="628,622,678,527,926,577,1135,607,1343,609,1562,589,1734,564,1765,663,1533,695,1306,708,1112,702,936,686,804,663"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="Tầng 5"
+                  title="Tầng 5"
+                  href=""
+                  coords="827,553,850,462,985,489,1157,512,1311,514,1481,501,1548,494,1585,503,1591,584,1419,602,1232,611,1101,600,994,591"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="Tầng 6"
+                  title="Tầng 6"
+                  href=""
+                  coords="983,483,1001,413,1053,413,1193,427,1352,431,1438,431,1449,497,1338,515,1180,512,1067,501"
+                  shape="poly"
+                  name="room_6"
+                />
+              </map>
             </div>
-
-            <map name="1a-floor-1">
-              <area
-                target=""
-                alt="Phòng HV 08"
-                title="Phòng HV 08"
-                href="#content1"
-                coords="238,781,72,664,117,604,164,637,163,645,264,720,257,737,266,748"
-                shape="poly"
-                name="room_1"
-                data-fancybox="room_1"
-              />
-              <area
-                target=""
-                alt="Phòng HV 07"
-                title="Phòng HV 07"
-                href="#content2"
-                coords="170,626,128,588,181,530,326,683,304,712,286,698,275,714"
-                shape="poly"
-                name="room_2"
-                data-fancybox="room_2"
-              />
-              <area
-                target=""
-                alt="Phòng HV 06"
-                title="Phòng HV 06"
-                href=""
-                coords="327,676,188,526,244,476,282,520,277,527,366,620,351,632,360,648"
-                shape="poly"
-                name="room_3"
-              />
-              <area
-                target=""
-                alt="Phòng HV 05"
-                title="Phòng HV 05"
-                href=""
-                coords="370,617,297,513,250,463,316,419,435,593,402,612,393,598"
-                shape="poly"
-                name="room_4"
-              />
-              <area
-                target=""
-                alt="Phòng HV 04"
-                title="Phòng HV 04"
-                href=""
-                coords="435,584,318,412,377,374,417,423,406,431,476,531,467,550,473,565"
-                shape="poly"
-                name="room_5"
-              />
-              <area
-                target=""
-                alt="Phòng HV 03"
-                title="Phòng HV 03"
-                href=""
-                coords="420,423,398,367,464,340,550,516,516,536,511,519,489,541,434,425"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="Phòng HV 02"
-                title="Phòng HV 02"
-                href=""
-                coords="556,516,465,330,537,303,564,356,555,356,605,472,595,483,592,499"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="Phòng HV 01"
-                title="Phòng HV 01"
-                href=""
-                coords="570,351,553,295,623,278,678,467,642,481,616,470"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="Phòng khách 84"
-                title="Phòng khách 84"
-                href=""
-                coords="685,470,630,269,801,238,815,443"
-                shape="poly"
-                name="room_9"
-              />
-              <area
-                target=""
-                alt="Phòng HV 11"
-                title="Phòng HV 11"
-                href=""
-                coords="387,884,453,798,365,715,279,811"
-                shape="poly"
-                name="room_10"
-              />
-              <area
-                target=""
-                alt="Phòng HV 10"
-                title="Phòng HV 10"
-                href=""
-                coords="457,797,365,714,420,658,461,634,531,736"
-                shape="poly"
-                name="room_11"
-              />
-              <area
-                target=""
-                alt="Phòng HV 09"
-                title="room_12"
-                href=""
-                coords="537,732,465,630,575,566,625,680"
-                shape="poly"
-                name="room_12"
-              />
-              <area
-                target=""
-                alt="Phòng kỹ thuật"
-                title="Phòng kỹ thuật"
-                href=""
-                coords="578,563,641,703,686,683,636,545"
-                shape="poly"
-                name="room_13"
-              />
-              <area
-                target=""
-                alt="Thang xem kt-th-01"
-                title="Thang xem kt-th-01"
-                href=""
-                coords="691,683,638,539,699,526,733,672"
-                shape="poly"
-                name="room_14"
-              />
-              <area
-                target=""
-                alt="Phòng kỹ thuật"
-                title="Phòng kỹ thuật"
-                href=""
-                coords="700,519,824,500,826,539,710,563"
-                shape="poly"
-                name="room_15"
-              />
-              <area
-                target=""
-                alt="Trực ban văn thư"
-                title="Trực ban văn thư"
-                href=""
-                coords="740,670,711,566,829,548,837,651"
-                shape="poly"
-                name="room_16"
-              />
-              <area
-                target=""
-                alt="Sảnh tầng 1"
-                title="Sảnh tầng 1"
-                href=""
-                coords="802,240,898,232,973,239,933,651,889,653,840,653"
-                shape="poly"
-                name="room_17"
-              />
-              <area
-                target=""
-                alt="Phòng kinh danh và quan hệ Khánh Hòa"
-                title="Phòng kinh danh và quan hệ Khánh Hòa"
-                href=""
-                coords="980,241,1064,252,1147,269,1118,385,1044,365,969,355"
-                shape="poly"
-                name="room_18"
-              />
-              <area
-                target=""
-                alt="Phòng dịch vụ pháp lý"
-                title="Phòng dịch vụ pháp lý"
-                href=""
-                coords="965,356,1038,364,1114,387,1094,469,1017,453,959,448"
-                shape="poly"
-                name="room_19"
-              />
-              <area
-                target=""
-                alt="Phòng hành chính tổng hợp"
-                title="Phòng hành chính tổng hợp"
-                href=""
-                coords="1148,271,1226,296,1306,331,1220,514,1149,487,1093,466"
-                shape="poly"
-                name="room_20"
-              />
-              <area
-                target=""
-                alt="Phòng hội thảo"
-                title="Phòng hội thảo"
-                href=""
-                coords="1229,521,1317,332,1462,416,1597,531,1452,679,1346,588"
-                shape="poly"
-                name="room_21"
-              />
-              <area
-                target=""
-                alt="Kho"
-                title="Kho"
-                href=""
-                coords="1080,523,1199,567,1185,595,1069,553"
-                shape="poly"
-                name="room_22"
-              />
-              <area
-                target=""
-                alt="Nhà vệ sinh"
-                title="Nhà vệ sinh"
-                href=""
-                coords="1135,706,1187,597,1127,576,1086,682"
-                shape="poly"
-                name="room_23"
-              />
-              <area
-                target=""
-                alt="Nhà vệ sinh"
-                title="Nhà vệ sinh"
-                href=""
-                coords="1070,556,1121,577,1081,683,1041,667"
-                shape="poly"
-                name="room_24"
-              />
-              <area
-                target=""
-                alt="Sảnh giải lao"
-                title="Sảnh giải lao"
-                href=""
-                coords="1307,819,1450,678,1326,578,1226,523,1144,703"
-                shape="poly"
-                name="room_25"
-              />
-              <area
-                target=""
-                alt="Thang máy"
-                title="Thang máy"
-                href=""
-                coords="1005,509,950,497,939,607,995,612"
-                shape="poly"
-                name="room_26"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="239,784,354,651,472,566,551,521,688,469,816,452,818,494,650,533,548,575,454,635,357,717,279,811,250,793,268,806"
-                shape="poly"
-                name="room_27"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="958,450,1094,469,1225,520,1203,564,1091,519,955,494"
-                shape="poly"
-                name="room_28"
-              />
-              <area
-                target=""
-                alt="Thang bộ lên tầng 2"
-                title="Thang bộ lên tầng 2"
-                href=""
-                coords="1009,511,1075,523,1049,619,1001,613"
-                shape="poly"
-                name="room_29"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="934,649,939,609,1047,619,1038,670"
-                shape="poly"
-                name="room_30"
-              />
-            </map>
           </div>
-        </div>
-        <div id="group-office-2">
-          <div class="card" id="opt-1">
-            <div style="width: 100%">
-              <img src="images/1.png" id="1b-floor-1" usemap="#1b-floor-1" />
+  
+          <div id="group-office-1">
+            <div class="card" id="opt-1">
+              <div style="width: 100%">
+                <img src="images/1B/1.png" id="1a-floor-1" usemap="#1a-floor-1" />
+              </div>
+  
+              <map name="1a-floor-1">
+                <area
+                  target=""
+                  alt="Phòng HV 08"
+                  title="Phòng HV 08"
+                  href="#content1"
+                  coords="238,781,72,664,117,604,164,637,163,645,264,720,257,737,266,748"
+                  shape="poly"
+                  name="room_1"
+                  data-fancybox="room_1"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 07"
+                  title="Phòng HV 07"
+                  href="#content2"
+                  coords="170,626,128,588,181,530,326,683,304,712,286,698,275,714"
+                  shape="poly"
+                  name="room_2"
+                  data-fancybox="room_2"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 06"
+                  title="Phòng HV 06"
+                  href=""
+                  coords="327,676,188,526,244,476,282,520,277,527,366,620,351,632,360,648"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 05"
+                  title="Phòng HV 05"
+                  href=""
+                  coords="370,617,297,513,250,463,316,419,435,593,402,612,393,598"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 04"
+                  title="Phòng HV 04"
+                  href=""
+                  coords="435,584,318,412,377,374,417,423,406,431,476,531,467,550,473,565"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 03"
+                  title="Phòng HV 03"
+                  href=""
+                  coords="420,423,398,367,464,340,550,516,516,536,511,519,489,541,434,425"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 02"
+                  title="Phòng HV 02"
+                  href=""
+                  coords="556,516,465,330,537,303,564,356,555,356,605,472,595,483,592,499"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 01"
+                  title="Phòng HV 01"
+                  href=""
+                  coords="570,351,553,295,623,278,678,467,642,481,616,470"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="Phòng khách 84"
+                  title="Phòng khách 84"
+                  href=""
+                  coords="685,470,630,269,801,238,815,443"
+                  shape="poly"
+                  name="room_9"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 11"
+                  title="Phòng HV 11"
+                  href=""
+                  coords="387,884,453,798,365,715,279,811"
+                  shape="poly"
+                  name="room_10"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 10"
+                  title="Phòng HV 10"
+                  href=""
+                  coords="457,797,365,714,420,658,461,634,531,736"
+                  shape="poly"
+                  name="room_11"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 09"
+                  title="room_12"
+                  href=""
+                  coords="537,732,465,630,575,566,625,680"
+                  shape="poly"
+                  name="room_12"
+                />
+                <area
+                  target=""
+                  alt="Phòng kỹ thuật"
+                  title="Phòng kỹ thuật"
+                  href=""
+                  coords="578,563,641,703,686,683,636,545"
+                  shape="poly"
+                  name="room_13"
+                />
+                <area
+                  target=""
+                  alt="Thang xem kt-th-01"
+                  title="Thang xem kt-th-01"
+                  href=""
+                  coords="691,683,638,539,699,526,733,672"
+                  shape="poly"
+                  name="room_14"
+                />
+                <area
+                  target=""
+                  alt="Phòng kỹ thuật"
+                  title="Phòng kỹ thuật"
+                  href=""
+                  coords="700,519,824,500,826,539,710,563"
+                  shape="poly"
+                  name="room_15"
+                />
+                <area
+                  target=""
+                  alt="Trực ban văn thư"
+                  title="Trực ban văn thư"
+                  href=""
+                  coords="740,670,711,566,829,548,837,651"
+                  shape="poly"
+                  name="room_16"
+                />
+                <area
+                  target=""
+                  alt="Sảnh tầng 1"
+                  title="Sảnh tầng 1"
+                  href=""
+                  coords="802,240,898,232,973,239,933,651,889,653,840,653"
+                  shape="poly"
+                  name="room_17"
+                />
+                <area
+                  target=""
+                  alt="Phòng kinh danh và quan hệ Khánh Hòa"
+                  title="Phòng kinh danh và quan hệ Khánh Hòa"
+                  href=""
+                  coords="980,241,1064,252,1147,269,1118,385,1044,365,969,355"
+                  shape="poly"
+                  name="room_18"
+                />
+                <area
+                  target=""
+                  alt="Phòng dịch vụ pháp lý"
+                  title="Phòng dịch vụ pháp lý"
+                  href=""
+                  coords="965,356,1038,364,1114,387,1094,469,1017,453,959,448"
+                  shape="poly"
+                  name="room_19"
+                />
+                <area
+                  target=""
+                  alt="Phòng hành chính tổng hợp"
+                  title="Phòng hành chính tổng hợp"
+                  href=""
+                  coords="1148,271,1226,296,1306,331,1220,514,1149,487,1093,466"
+                  shape="poly"
+                  name="room_20"
+                />
+                <area
+                  target=""
+                  alt="Phòng hội thảo"
+                  title="Phòng hội thảo"
+                  href=""
+                  coords="1229,521,1317,332,1462,416,1597,531,1452,679,1346,588"
+                  shape="poly"
+                  name="room_21"
+                />
+                <area
+                  target=""
+                  alt="Kho"
+                  title="Kho"
+                  href=""
+                  coords="1080,523,1199,567,1185,595,1069,553"
+                  shape="poly"
+                  name="room_22"
+                />
+                <area
+                  target=""
+                  alt="Nhà vệ sinh"
+                  title="Nhà vệ sinh"
+                  href=""
+                  coords="1135,706,1187,597,1127,576,1086,682"
+                  shape="poly"
+                  name="room_23"
+                />
+                <area
+                  target=""
+                  alt="Nhà vệ sinh"
+                  title="Nhà vệ sinh"
+                  href=""
+                  coords="1070,556,1121,577,1081,683,1041,667"
+                  shape="poly"
+                  name="room_24"
+                />
+                <area
+                  target=""
+                  alt="Sảnh giải lao"
+                  title="Sảnh giải lao"
+                  href=""
+                  coords="1307,819,1450,678,1326,578,1226,523,1144,703"
+                  shape="poly"
+                  name="room_25"
+                />
+                <area
+                  target=""
+                  alt="Thang máy"
+                  title="Thang máy"
+                  href=""
+                  coords="1005,509,950,497,939,607,995,612"
+                  shape="poly"
+                  name="room_26"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="239,784,354,651,472,566,551,521,688,469,816,452,818,494,650,533,548,575,454,635,357,717,279,811,250,793,268,806"
+                  shape="poly"
+                  name="room_27"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="958,450,1094,469,1225,520,1203,564,1091,519,955,494"
+                  shape="poly"
+                  name="room_28"
+                />
+                <area
+                  target=""
+                  alt="Thang bộ lên tầng 2"
+                  title="Thang bộ lên tầng 2"
+                  href=""
+                  coords="1009,511,1075,523,1049,619,1001,613"
+                  shape="poly"
+                  name="room_29"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="934,649,939,609,1047,619,1038,670"
+                  shape="poly"
+                  name="room_30"
+                />
+              </map>
             </div>
-
-            <map name="1b-floor-1">
-              <area
-                target=""
-                alt="Phòng HV 08"
-                title="Phòng HV 08"
-                href="#content1"
-                coords="238,781,72,664,117,604,164,637,163,645,264,720,257,737,266,748"
-                shape="poly"
-                name="room_1"
-                data-fancybox="room_1"
-              />
-              <area
-                target=""
-                alt="Phòng HV 07"
-                title="Phòng HV 07"
-                href="#content2"
-                coords="170,626,128,588,181,530,326,683,304,712,286,698,275,714"
-                shape="poly"
-                name="room_2"
-                data-fancybox="room_2"
-              />
-              <area
-                target=""
-                alt="Phòng HV 06"
-                title="Phòng HV 06"
-                href=""
-                coords="327,676,188,526,244,476,282,520,277,527,366,620,351,632,360,648"
-                shape="poly"
-                name="room_3"
-              />
-              <area
-                target=""
-                alt="Phòng HV 05"
-                title="Phòng HV 05"
-                href=""
-                coords="370,617,297,513,250,463,316,419,435,593,402,612,393,598"
-                shape="poly"
-                name="room_4"
-              />
-              <area
-                target=""
-                alt="Phòng HV 04"
-                title="Phòng HV 04"
-                href=""
-                coords="435,584,318,412,377,374,417,423,406,431,476,531,467,550,473,565"
-                shape="poly"
-                name="room_5"
-              />
-              <area
-                target=""
-                alt="Phòng HV 03"
-                title="Phòng HV 03"
-                href=""
-                coords="420,423,398,367,464,340,550,516,516,536,511,519,489,541,434,425"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="Phòng HV 02"
-                title="Phòng HV 02"
-                href=""
-                coords="556,516,465,330,537,303,564,356,555,356,605,472,595,483,592,499"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="Phòng HV 01"
-                title="Phòng HV 01"
-                href=""
-                coords="570,351,553,295,623,278,678,467,642,481,616,470"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="Phòng khách 84"
-                title="Phòng khách 84"
-                href=""
-                coords="685,470,630,269,801,238,815,443"
-                shape="poly"
-                name="room_9"
-              />
-              <area
-                target=""
-                alt="Phòng HV 11"
-                title="Phòng HV 11"
-                href=""
-                coords="387,884,453,798,365,715,279,811"
-                shape="poly"
-                name="room_10"
-              />
-              <area
-                target=""
-                alt="Phòng HV 10"
-                title="Phòng HV 10"
-                href=""
-                coords="457,797,365,714,420,658,461,634,531,736"
-                shape="poly"
-                name="room_11"
-              />
-              <area
-                target=""
-                alt="Phòng HV 09"
-                title="room_12"
-                href=""
-                coords="537,732,465,630,575,566,625,680"
-                shape="poly"
-                name="room_12"
-              />
-              <area
-                target=""
-                alt="Phòng kỹ thuật"
-                title="Phòng kỹ thuật"
-                href=""
-                coords="578,563,641,703,686,683,636,545"
-                shape="poly"
-                name="room_13"
-              />
-              <area
-                target=""
-                alt="Thang xem kt-th-01"
-                title="Thang xem kt-th-01"
-                href=""
-                coords="691,683,638,539,699,526,733,672"
-                shape="poly"
-                name="room_14"
-              />
-              <area
-                target=""
-                alt="Phòng kỹ thuật"
-                title="Phòng kỹ thuật"
-                href=""
-                coords="700,519,824,500,826,539,710,563"
-                shape="poly"
-                name="room_15"
-              />
-              <area
-                target=""
-                alt="Trực ban văn thư"
-                title="Trực ban văn thư"
-                href=""
-                coords="740,670,711,566,829,548,837,651"
-                shape="poly"
-                name="room_16"
-              />
-              <area
-                target=""
-                alt="Sảnh tầng 1"
-                title="Sảnh tầng 1"
-                href=""
-                coords="802,240,898,232,973,239,933,651,889,653,840,653"
-                shape="poly"
-                name="room_17"
-              />
-              <area
-                target=""
-                alt="Phòng kinh danh và quan hệ Khánh Hòa"
-                title="Phòng kinh danh và quan hệ Khánh Hòa"
-                href=""
-                coords="980,241,1064,252,1147,269,1118,385,1044,365,969,355"
-                shape="poly"
-                name="room_18"
-              />
-              <area
-                target=""
-                alt="Phòng dịch vụ pháp lý"
-                title="Phòng dịch vụ pháp lý"
-                href=""
-                coords="965,356,1038,364,1114,387,1094,469,1017,453,959,448"
-                shape="poly"
-                name="room_19"
-              />
-              <area
-                target=""
-                alt="Phòng hành chính tổng hợp"
-                title="Phòng hành chính tổng hợp"
-                href=""
-                coords="1148,271,1226,296,1306,331,1220,514,1149,487,1093,466"
-                shape="poly"
-                name="room_20"
-              />
-              <area
-                target=""
-                alt="Phòng hội thảo"
-                title="Phòng hội thảo"
-                href=""
-                coords="1229,521,1317,332,1462,416,1597,531,1452,679,1346,588"
-                shape="poly"
-                name="room_21"
-              />
-              <area
-                target=""
-                alt="Kho"
-                title="Kho"
-                href=""
-                coords="1080,523,1199,567,1185,595,1069,553"
-                shape="poly"
-                name="room_22"
-              />
-              <area
-                target=""
-                alt="Nhà vệ sinh"
-                title="Nhà vệ sinh"
-                href=""
-                coords="1135,706,1187,597,1127,576,1086,682"
-                shape="poly"
-                name="room_23"
-              />
-              <area
-                target=""
-                alt="Nhà vệ sinh"
-                title="Nhà vệ sinh"
-                href=""
-                coords="1070,556,1121,577,1081,683,1041,667"
-                shape="poly"
-                name="room_24"
-              />
-              <area
-                target=""
-                alt="Sảnh giải lao"
-                title="Sảnh giải lao"
-                href=""
-                coords="1307,819,1450,678,1326,578,1226,523,1144,703"
-                shape="poly"
-                name="room_25"
-              />
-              <area
-                target=""
-                alt="Thang máy"
-                title="Thang máy"
-                href=""
-                coords="1005,509,950,497,939,607,995,612"
-                shape="poly"
-                name="room_26"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="239,784,354,651,472,566,551,521,688,469,816,452,818,494,650,533,548,575,454,635,357,717,279,811,250,793,268,806"
-                shape="poly"
-                name="room_27"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="958,450,1094,469,1225,520,1203,564,1091,519,955,494"
-                shape="poly"
-                name="room_28"
-              />
-              <area
-                target=""
-                alt="Thang bộ lên tầng 2"
-                title="Thang bộ lên tầng 2"
-                href=""
-                coords="1009,511,1075,523,1049,619,1001,613"
-                shape="poly"
-                name="room_29"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="934,649,939,609,1047,619,1038,670"
-                shape="poly"
-                name="room_30"
-              />
-            </map>
           </div>
-          <div class="card" id="opt-2">
-            <img
-              class="image"
-              src="images/2.png"
-              id="1b-floor-2"
-              usemap="#1b-floor-2"
-            />
-            <map name="1b-floor-2">
-              <area
-                target=""
-                alt="Phòng phát triển ứng dụng trên thiết bị di động"
-                title="Phòng phát triển ứng dụng trên thiết bị di động"
-                href=""
-                coords="283,689,237,736,196,798,24,672,51,637,86,597,111,568,138,541"
-                shape="poly"
-                name="room_1"
+          <div id="group-office-2">
+            <div class="card" id="opt-1">
+              <div style="width: 100%">
+                <img src="images/1B/1.png" id="1b-floor-1" usemap="#1b-floor-1" />
+              </div>
+  
+              <map name="1b-floor-1">
+                <area
+                  target=""
+                  alt="Phòng HV 08"
+                  title="Phòng HV 08"
+                  href="#content1"
+                  coords="238,781,72,664,117,604,164,637,163,645,264,720,257,737,266,748"
+                  shape="poly"
+                  name="room_1"
+                  data-fancybox="room_1"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 07"
+                  title="Phòng HV 07"
+                  href="#content2"
+                  coords="170,626,128,588,181,530,326,683,304,712,286,698,275,714"
+                  shape="poly"
+                  name="room_2"
+                  data-fancybox="room_2"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 06"
+                  title="Phòng HV 06"
+                  href=""
+                  coords="327,676,188,526,244,476,282,520,277,527,366,620,351,632,360,648"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 05"
+                  title="Phòng HV 05"
+                  href=""
+                  coords="370,617,297,513,250,463,316,419,435,593,402,612,393,598"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 04"
+                  title="Phòng HV 04"
+                  href=""
+                  coords="435,584,318,412,377,374,417,423,406,431,476,531,467,550,473,565"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 03"
+                  title="Phòng HV 03"
+                  href=""
+                  coords="420,423,398,367,464,340,550,516,516,536,511,519,489,541,434,425"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 02"
+                  title="Phòng HV 02"
+                  href=""
+                  coords="556,516,465,330,537,303,564,356,555,356,605,472,595,483,592,499"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 01"
+                  title="Phòng HV 01"
+                  href=""
+                  coords="570,351,553,295,623,278,678,467,642,481,616,470"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="Phòng khách 84"
+                  title="Phòng khách 84"
+                  href=""
+                  coords="685,470,630,269,801,238,815,443"
+                  shape="poly"
+                  name="room_9"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 11"
+                  title="Phòng HV 11"
+                  href=""
+                  coords="387,884,453,798,365,715,279,811"
+                  shape="poly"
+                  name="room_10"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 10"
+                  title="Phòng HV 10"
+                  href=""
+                  coords="457,797,365,714,420,658,461,634,531,736"
+                  shape="poly"
+                  name="room_11"
+                />
+                <area
+                  target=""
+                  alt="Phòng HV 09"
+                  title="room_12"
+                  href=""
+                  coords="537,732,465,630,575,566,625,680"
+                  shape="poly"
+                  name="room_12"
+                />
+                <area
+                  target=""
+                  alt="Phòng kỹ thuật"
+                  title="Phòng kỹ thuật"
+                  href=""
+                  coords="578,563,641,703,686,683,636,545"
+                  shape="poly"
+                  name="room_13"
+                />
+                <area
+                  target=""
+                  alt="Thang xem kt-th-01"
+                  title="Thang xem kt-th-01"
+                  href=""
+                  coords="691,683,638,539,699,526,733,672"
+                  shape="poly"
+                  name="room_14"
+                />
+                <area
+                  target=""
+                  alt="Phòng kỹ thuật"
+                  title="Phòng kỹ thuật"
+                  href=""
+                  coords="700,519,824,500,826,539,710,563"
+                  shape="poly"
+                  name="room_15"
+                />
+                <area
+                  target=""
+                  alt="Trực ban văn thư"
+                  title="Trực ban văn thư"
+                  href=""
+                  coords="740,670,711,566,829,548,837,651"
+                  shape="poly"
+                  name="room_16"
+                />
+                <area
+                  target=""
+                  alt="Sảnh tầng 1"
+                  title="Sảnh tầng 1"
+                  href=""
+                  coords="802,240,898,232,973,239,933,651,889,653,840,653"
+                  shape="poly"
+                  name="room_17"
+                />
+                <area
+                  target=""
+                  alt="Phòng kinh danh và quan hệ Khánh Hòa"
+                  title="Phòng kinh danh và quan hệ Khánh Hòa"
+                  href=""
+                  coords="980,241,1064,252,1147,269,1118,385,1044,365,969,355"
+                  shape="poly"
+                  name="room_18"
+                />
+                <area
+                  target=""
+                  alt="Phòng dịch vụ pháp lý"
+                  title="Phòng dịch vụ pháp lý"
+                  href=""
+                  coords="965,356,1038,364,1114,387,1094,469,1017,453,959,448"
+                  shape="poly"
+                  name="room_19"
+                />
+                <area
+                  target=""
+                  alt="Phòng hành chính tổng hợp"
+                  title="Phòng hành chính tổng hợp"
+                  href=""
+                  coords="1148,271,1226,296,1306,331,1220,514,1149,487,1093,466"
+                  shape="poly"
+                  name="room_20"
+                />
+                <area
+                  target=""
+                  alt="Phòng hội thảo"
+                  title="Phòng hội thảo"
+                  href=""
+                  coords="1229,521,1317,332,1462,416,1597,531,1452,679,1346,588"
+                  shape="poly"
+                  name="room_21"
+                />
+                <area
+                  target=""
+                  alt="Kho"
+                  title="Kho"
+                  href=""
+                  coords="1080,523,1199,567,1185,595,1069,553"
+                  shape="poly"
+                  name="room_22"
+                />
+                <area
+                  target=""
+                  alt="Nhà vệ sinh"
+                  title="Nhà vệ sinh"
+                  href=""
+                  coords="1135,706,1187,597,1127,576,1086,682"
+                  shape="poly"
+                  name="room_23"
+                />
+                <area
+                  target=""
+                  alt="Nhà vệ sinh"
+                  title="Nhà vệ sinh"
+                  href=""
+                  coords="1070,556,1121,577,1081,683,1041,667"
+                  shape="poly"
+                  name="room_24"
+                />
+                <area
+                  target=""
+                  alt="Sảnh giải lao"
+                  title="Sảnh giải lao"
+                  href=""
+                  coords="1307,819,1450,678,1326,578,1226,523,1144,703"
+                  shape="poly"
+                  name="room_25"
+                />
+                <area
+                  target=""
+                  alt="Thang máy"
+                  title="Thang máy"
+                  href=""
+                  coords="1005,509,950,497,939,607,995,612"
+                  shape="poly"
+                  name="room_26"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="239,784,354,651,472,566,551,521,688,469,816,452,818,494,650,533,548,575,454,635,357,717,279,811,250,793,268,806"
+                  shape="poly"
+                  name="room_27"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="958,450,1094,469,1225,520,1203,564,1091,519,955,494"
+                  shape="poly"
+                  name="room_28"
+                />
+                <area
+                  target=""
+                  alt="Thang bộ lên tầng 2"
+                  title="Thang bộ lên tầng 2"
+                  href=""
+                  coords="1009,511,1075,523,1049,619,1001,613"
+                  shape="poly"
+                  name="room_29"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="934,649,939,609,1047,619,1038,670"
+                  shape="poly"
+                  name="room_30"
+                />
+              </map>
+            </div>
+            <div class="card" id="opt-2">
+              <img
+                class="image"
+                src="images/1B/2.png"
+                id="1b-floor-2"
+                usemap="#1b-floor-2"
               />
-              <area
-                target=""
-                alt="Phòng triển khai dự án phần mềm 03"
-                title="Phòng triển khai dự án phần mềm 03"
-                href=""
-                coords="285,687,322,650,349,630,389,601,269,429,227,462,181,504,159,524,137,539"
-                shape="poly"
-                name="room_2"
+              <map name="1b-floor-2">
+                <area
+                  target=""
+                  alt="Phòng phát triển ứng dụng trên thiết bị di động"
+                  title="Phòng phát triển ứng dụng trên thiết bị di động"
+                  href=""
+                  coords="283,689,237,736,196,798,24,672,51,637,86,597,111,568,138,541"
+                  shape="poly"
+                  name="room_1"
+                />
+                <area
+                  target=""
+                  alt="Phòng triển khai dự án phần mềm 03"
+                  title="Phòng triển khai dự án phần mềm 03"
+                  href=""
+                  coords="285,687,322,650,349,630,389,601,269,429,227,462,181,504,159,524,137,539"
+                  shape="poly"
+                  name="room_2"
+                />
+                <area
+                  target=""
+                  alt="Sảnh nghỉ giải lao"
+                  title="Sảnh nghỉ giải lao"
+                  href=""
+                  coords="296,456,438,377,513,527,449,560,396,596"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="Phòng triển khai dự án phần mềm 02"
+                  title="Phòng triển khai dự án phần mềm 02"
+                  href=""
+                  coords="429,338,515,527,561,507,597,495,643,482,592,281,540,294,480,319"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="Phòng triển khai dự án phần mềm 01"
+                  title="Phòng triển khai dự án phần mềm 01"
+                  href=""
+                  coords="646,268,710,255,763,248,783,454,714,463,648,478,593,277"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="Thông tầng"
+                  title="Thông tầng"
+                  href=""
+                  coords="854,242,938,246,925,425,783,425,770,248"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="Phòng khách chỉ huy"
+                  title="Phòng khách chỉ huy"
+                  href=""
+                  coords="944,246,997,255,1059,268,1113,277,1059,480,991,463,927,456"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo vào hợp tác quốc tế"
+                  title="Phòng đào tạo vào hợp tác quốc tế"
+                  href=""
+                  coords="1119,278,1166,297,1234,322,1279,337,1192,527,1130,503,1066,481"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="Sảnh nghỉ giải lao"
+                  title="Sảnh nghỉ giải lao"
+                  href=""
+                  coords="1268,378,1409,458,1314,595,1257,560,1197,529"
+                  shape="poly"
+                  name="room_9"
+                />
+                <area
+                  target=""
+                  alt="Ban tài chính"
+                  title="Ban tài chính"
+                  href=""
+                  coords="1436,429,1500,482,1371,644,1319,597"
+                  shape="poly"
+                  name="room_10"
+                />
+                <area
+                  target=""
+                  alt="Ban chính trị"
+                  title="Ban chính trị"
+                  href=""
+                  coords="1502,485,1568,538,1423,690,1372,642"
+                  shape="poly"
+                  name="room_11"
+                />
+                <area
+                  target=""
+                  alt="Phó chủ tịch hội đồng quản lý"
+                  title="Phó chủ tịch hội đồng quản lý"
+                  href=""
+                  coords="1281,646,1330,687,1378,729,1274,834,1201,770,1153,741,1230,612"
+                  shape="poly"
+                  name="room_12"
+                />
+                <area
+                  target=""
+                  alt="Giám đốc"
+                  title="Giám đốc"
+                  href=""
+                  coords="1049,537,1106,555,1164,581,1225,610,1150,741,1104,716,1011,681"
+                  shape="poly"
+                  name="room_13"
+                />
+                <area
+                  target=""
+                  alt="Thang máy"
+                  title="Thang máy"
+                  href=""
+                  coords="920,513,973,521,964,623,913,617"
+                  shape="poly"
+                  name="room_14"
+                />
+                <area
+                  target=""
+                  alt="Thang bộ"
+                  title="Thang bộ"
+                  href=""
+                  coords="976,522,1042,535,1007,681,907,663,909,621,969,626"
+                  shape="poly"
+                  name="room_15"
+                />
+                <area
+                  target=""
+                  alt="Sảnh tầng 2"
+                  title="Sảnh tầng 2"
+                  href=""
+                  coords="790,515,851,513,920,518,904,666,805,662"
+                  shape="poly"
+                  name="room_16"
+                />
+                <area
+                  target=""
+                  alt="Kỹ thuật"
+                  title="Kỹ thuật"
+                  href=""
+                  coords="663,535,672,564,789,542,785,515"
+                  shape="poly"
+                  name="room_17"
+                />
+                <area
+                  target=""
+                  alt="WC"
+                  title="WC"
+                  href=""
+                  coords="672,568,732,557,790,550,803,666,754,672,701,681"
+                  shape="poly"
+                  name="room_18"
+                />
+                <area
+                  target=""
+                  alt="Cầu thang thoát hiểm"
+                  title="Cầu thang thoát hiểm"
+                  href=""
+                  coords="601,555,655,538,697,682,654,697"
+                  shape="poly"
+                  name="room_19"
+                />
+                <area
+                  target=""
+                  alt="Phó Giám đốc"
+                  title="Phó Giám đốc"
+                  href=""
+                  coords="593,558,644,699,579,726,535,754,453,628,509,595"
+                  shape="poly"
+                  name="room_20"
+                />
+                <area
+                  target=""
+                  alt="Phó Giám đốc"
+                  title="Phó Giám đốc"
+                  href=""
+                  coords="328,732,357,701,398,666,451,632,488,694,528,756,468,802,435,833"
+                  shape="poly"
+                  name="room_21"
+                />
+                <area
+                  target=""
+                  alt="Phòng nghiên cứu phát triển và chuyển giao công nghệ"
+                  title="Phòng nghiên cứu phát triển và chuyển giao công nghệ"
+                  href=""
+                  coords="320,731,433,839,389,881,365,917,241,831,281,780"
+                  shape="poly"
+                  name="room_22"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="201,796,289,690,393,601,482,541,579,506,643,488,712,470,783,462,785,428,849,426,925,428,922,455,989,471,1057,484,1122,508,1197,532,1254,557,1312,597,1336,623,1365,647,1391,669,1412,690,1383,721,1336,679,1285,641,1232,605,1168,575,1110,552,1048,528,914,513,856,513,790,512,750,515,703,521,637,539,570,564,535,575,466,612,422,643,356,689,331,720,276,774,238,827"
+                  shape="poly"
+                  name="room_23"
+                />
+              </map>
+            </div>
+            <div class="card" id="opt-3">
+              <img
+                class="image"
+                src="images/1B/3.png"
+                id="1b-floor-3"
+                usemap="#1b-floor-3"
               />
-              <area
-                target=""
-                alt="Sảnh nghỉ giải lao"
-                title="Sảnh nghỉ giải lao"
-                href=""
-                coords="296,456,438,377,513,527,449,560,396,596"
-                shape="poly"
-                name="room_3"
+              <map name="1b-floor-3">
+                <area
+                  target=""
+                  alt="Phòng đào tạo kỹ năng CNTT 02"
+                  title="Phòng đào tạo kỹ năng CNTT 02"
+                  href=""
+                  coords="148,559,220,631,298,707,345,664,410,617,350,528,287,442"
+                  shape="poly"
+                  name="room_1"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo kỹ năng CNTT 01"
+                  title="Phòng đào tạo kỹ năng CNTT 01"
+                  href=""
+                  coords="292,438,349,526,413,613,463,580,535,545,491,442,447,349"
+                  shape="poly"
+                  name="room_2"
+                />
+                <area
+                  target=""
+                  alt="Sảnh nghỉ giải lao"
+                  title="Sảnh nghỉ giải lao"
+                  href=""
+                  coords="465,389,493,445,537,542,672,492,639,380,629,326"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo an toàn ANTT 02"
+                  title="Phòng đào tạo an toàn ANTT 02"
+                  href=""
+                  coords="617,287,642,382,672,492,815,467,804,356,794,255"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="Phòng thi tiếng anh CNTT trực tuyến"
+                  title="Phòng thi tiếng anh CNTT trực tuyến"
+                  href=""
+                  coords="802,255,806,346,815,434,892,431,964,434,972,332,983,254"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo an toàn ANTT 01"
+                  title="Phòng đào tạo an toàn ANTT 01"
+                  href=""
+                  coords="978,256,973,352,965,468,1034,476,1102,491,1131,380,1155,286"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="Sảnh nghỉ giải lao"
+                  title="Sảnh nghỉ giải lao"
+                  href=""
+                  coords="1142,325,1125,403,1103,494,1171,516,1237,540,1281,449,1312,386"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo Tác chiến không gian mạng 02"
+                  title="Phòng đào tạo Tác chiến không gian mạng 02"
+                  href=""
+                  coords="1329,348,1284,450,1241,541,1312,581,1362,612,1426,523,1484,438"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo Tác chiến không gian mạng 01"
+                  title="Phòng đào tạo Tác chiến không gian mạng 01"
+                  href=""
+                  coords="1488,439,1436,518,1364,615,1428,662,1478,706,1550,632,1627,557"
+                  shape="poly"
+                  name="room_9"
+                />
+                <area
+                  target=""
+                  alt="Phòng thảo luận giáo viên"
+                  title="Phòng thảo luận giáo viên"
+                  href=""
+                  coords="344,750,388,796,454,859,493,823,534,790,487,725,446,664"
+                  shape="poly"
+                  name="room_10"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo tiếng anh 02"
+                  title="Phòng đào tạo tiếng anh 02"
+                  href=""
+                  coords="446,663,485,722,538,788,606,751,673,719,648,639,623,569,535,611"
+                  shape="poly"
+                  name="room_11"
+                />
+                <area
+                  target=""
+                  alt="Cầu thang bộ"
+                  title="Cầu thang bộ"
+                  href=""
+                  coords="623,569,650,644,678,718,730,700,702,612,686,551"
+                  shape="poly"
+                  name="room_12"
+                />
+                <area
+                  target=""
+                  alt="Phòng kỹ thuật"
+                  title="Phòng kỹ thuật"
+                  href=""
+                  coords="686,547,695,580,822,560,819,526"
+                  shape="poly"
+                  name="room_13"
+                />
+                <area
+                  target=""
+                  alt="Nhà vệ sinh"
+                  title="Nhà vệ sinh"
+                  href=""
+                  coords="695,581,730,699,785,688,837,682,826,558"
+                  shape="poly"
+                  name="room_14"
+                />
+                <area
+                  target=""
+                  alt="Sảnh tầng 3"
+                  title="Sảnh tầng 3"
+                  href=""
+                  coords="821,531,826,588,838,682,891,681,943,683,946,591,951,531"
+                  shape="poly"
+                  name="room_15"
+                />
+                <area
+                  target=""
+                  alt="Thang máy"
+                  title="Thang máy"
+                  href=""
+                  coords="953,526,948,589,943,682,1000,690,1009,586,1011,533"
+                  shape="poly"
+                  name="room_16"
+                />
+                <area
+                  target=""
+                  alt="Thang bộ"
+                  title="Thang bộ"
+                  href=""
+                  coords="1012,531,1008,585,1000,688,1047,701,1070,613,1084,549"
+                  shape="poly"
+                  name="room_17"
+                />
+                <area
+                  target=""
+                  alt="Phòng thảo luận giáo viên"
+                  title="Phòng thảo luận giáo viên"
+                  href=""
+                  coords="1091,548,1070,613,1050,699,1094,718,1147,738,1177,666,1215,594"
+                  shape="poly"
+                  name="room_18"
+                />
+                <area
+                  target=""
+                  alt="Phòng đào tạo tiếng anh 01"
+                  title="Phòng đào tạo tiếng anh 01"
+                  href=""
+                  coords="1213,597,1186,660,1150,737,1241,792,1321,859,1383,803,1437,751,1324,658"
+                  shape="poly"
+                  name="room_19"
+                />
+              </map>
+            </div>
+            <div class="card" id="opt-4">
+              <img
+                class="image"
+                src="images/1B/4.png"
+                id="1b-floor-4"
+                usemap="#1b-floor-4"
               />
-              <area
-                target=""
-                alt="Phòng triển khai dự án phần mềm 02"
-                title="Phòng triển khai dự án phần mềm 02"
-                href=""
-                coords="429,338,515,527,561,507,597,495,643,482,592,281,540,294,480,319"
-                shape="poly"
-                name="room_4"
+              <map name="1b-floor-4">
+                <area
+                  target=""
+                  alt="Đào tạo lập trình nhúng"
+                  title="Đào tạo lập trình nhúng"
+                  href=""
+                  coords="191,497,244,463,313,427,366,393,475,623,435,642,366,682,334,705"
+                  shape="poly"
+                  name="room_1"
+                />
+                <area
+                  target=""
+                  alt="Sảnh nghỉ giải lao"
+                  title="Sảnh nghỉ giải lao"
+                  href=""
+                  coords="397,433,479,405,580,366,633,568,482,622"
+                  shape="poly"
+                  name="room_2"
+                />
+                <area
+                  target=""
+                  alt="Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM"
+                  title="Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM"
+                  href=""
+                  coords="576,318,680,299,774,290,875,284,960,284,1025,290,1096,301,1166,315,1200,318,1138,564,1069,545,1039,541,936,528,840,532,759,535,715,545,642,560"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="Sảnh nghỉ giải lao"
+                  title="Sảnh nghỉ giải lao"
+                  href=""
+                  coords="1195,368,1378,434,1292,623,1141,568"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="Đào tạo lập trình ứng dụng"
+                  title="Đào tạo lập trình ứng dụng"
+                  href=""
+                  coords="1404,393,1459,427,1530,467,1587,500,1448,705,1339,640,1301,623"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="Đào tạo quản trị mạng và hệ thống"
+                  title="Đào tạo quản trị mạng và hệ thống"
+                  href=""
+                  coords="1126,631,1179,646,1265,683,1336,719,1362,734,1402,759,1299,909,1204,852,1174,839,1080,804"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="Cầu thang bộ"
+                  title="Cầu thang bộ"
+                  href=""
+                  coords="1037,614,1119,631,1069,804,951,781,953,734,1027,743"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="Thang máy"
+                  title="Thang máy"
+                  href=""
+                  coords="972,602,1033,614,1021,734,957,728"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="Sảnh tầng 4"
+                  title="Sảnh tầng 4"
+                  href=""
+                  coords="814,606,863,606,913,604,962,606,949,783,831,781"
+                  shape="poly"
+                  name="room_9"
+                />
+                <area
+                  target=""
+                  alt="WC"
+                  title="WC"
+                  href=""
+                  coords="812,640,825,781,768,791,709,802,673,671"
+                  shape="poly"
+                  name="room_10"
+                />
+                <area
+                  target=""
+                  alt="Kỹ thuật"
+                  title="Kỹ thuật"
+                  href=""
+                  coords="660,628,665,665,814,638,808,608,741,609"
+                  shape="poly"
+                  name="room_11"
+                />
+                <area
+                  target=""
+                  alt="Cầu thang thoát hiểm"
+                  title="Cầu thang thoát hiểm"
+                  href=""
+                  coords="585,655,656,630,700,806,646,823"
+                  shape="poly"
+                  name="room_12"
+                />
+                <area
+                  target=""
+                  alt="Đào tạo trực tuyến"
+                  title="Đào tạo trực tuyến"
+                  href=""
+                  coords="374,764,425,726,524,677,578,656,640,825,597,842,536,873,479,911"
+                  shape="poly"
+                  name="room_13"
+                />
+                <area
+                  target=""
+                  alt="Hành lang"
+                  title="Hành lang"
+                  href=""
+                  coords="336,711,410,665,482,623,635,570,738,551,867,538,976,543,1042,551,1141,570,1296,627,1383,677,1439,713,1412,755,1336,707,1206,650,1128,625,1037,602,960,599,816,600,776,599,648,625,564,656,519,669,416,719,368,757"
+                  shape="poly"
+                  name="room_14"
+                />
+              </map>
+            </div>
+            <div class="card" id="opt-5">
+              <img
+                class="image"
+                src="images/1B/5.png"
+                id="1b-floor-5"
+                usemap="#1b-floor-5"
               />
-              <area
-                target=""
-                alt="Phòng triển khai dự án phần mềm 01"
-                title="Phòng triển khai dự án phần mềm 01"
-                href=""
-                coords="646,268,710,255,763,248,783,454,714,463,648,478,593,277"
-                shape="poly"
-                name="room_5"
+              <map name="1b-floor-5">
+                <area
+                  target=""
+                  alt="CIVIL SERVER FARM"
+                  title="CIVIL SERVER FARM"
+                  href=""
+                  coords="248,414,305,550,365,677,562,608,790,574,1008,581,1032,435,1050,293,729,281,472,329"
+                  shape="poly"
+                  name="room_1"
+                />
+                <area
+                  target=""
+                  alt="MIUTARY SERVER FARM"
+                  title="MIUTARY SERVER FARM"
+                  href=""
+                  coords="1053,295,1032,431,1010,581,1169,616,1320,675,1387,540,1442,413,1260,341"
+                  shape="poly"
+                  name="room_2"
+                />
+                <area
+                  target=""
+                  alt="PHÒNG HỌP"
+                  title="PHÒNG HỌP"
+                  href=""
+                  coords="396,743,491,943,560,913,485,713"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="THANG BỘ"
+                  title="THANG BỘ"
+                  href=""
+                  coords="485,709,562,912,630,889,574,684"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="KHO KỸ THUẬT"
+                  title="KHO KỸ THUẬT"
+                  href=""
+                  coords="574,682,599,778,757,751,754,652,665,666"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="NHÀ VỆ SINH"
+                  title="NHÀ VỆ SINH"
+                  href=""
+                  coords="600,778,635,889,778,867,763,752"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="SẢNH TẦNG 5"
+                  title="SẢNH TẦNG 5"
+                  href=""
+                  coords="756,654,763,753,778,864,914,869,930,657"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="THANG MÁY"
+                  title="THANG MÁY"
+                  href=""
+                  coords="932,647,915,870,996,878,1015,657"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="THANG BỘ"
+                  title="THANG BỘ"
+                  href=""
+                  coords="1012,659,998,878,1066,893,1118,684"
+                  shape="poly"
+                  name="room_9"
+                />
+                <area
+                  target=""
+                  alt="PHÒNG LÀM VIỆC"
+                  title="PHÒNG LÀM VIỆC"
+                  href=""
+                  coords="1117,683,1063,890,1204,942,1292,745"
+                  shape="poly"
+                  name="room_10"
+                />
+              </map>
+            </div>
+            <div class="card" id="opt-6">
+              <img
+                class="image"
+                src="images/1B/6.png"
+                id="1b-floor-6"
+                usemap="#1b-floor-6"
               />
-              <area
-                target=""
-                alt="Thông tầng"
-                title="Thông tầng"
-                href=""
-                coords="854,242,938,246,925,425,783,425,770,248"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="Phòng khách chỉ huy"
-                title="Phòng khách chỉ huy"
-                href=""
-                coords="944,246,997,255,1059,268,1113,277,1059,480,991,463,927,456"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo vào hợp tác quốc tế"
-                title="Phòng đào tạo vào hợp tác quốc tế"
-                href=""
-                coords="1119,278,1166,297,1234,322,1279,337,1192,527,1130,503,1066,481"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="Sảnh nghỉ giải lao"
-                title="Sảnh nghỉ giải lao"
-                href=""
-                coords="1268,378,1409,458,1314,595,1257,560,1197,529"
-                shape="poly"
-                name="room_9"
-              />
-              <area
-                target=""
-                alt="Ban tài chính"
-                title="Ban tài chính"
-                href=""
-                coords="1436,429,1500,482,1371,644,1319,597"
-                shape="poly"
-                name="room_10"
-              />
-              <area
-                target=""
-                alt="Ban chính trị"
-                title="Ban chính trị"
-                href=""
-                coords="1502,485,1568,538,1423,690,1372,642"
-                shape="poly"
-                name="room_11"
-              />
-              <area
-                target=""
-                alt="Phó chủ tịch hội đồng quản lý"
-                title="Phó chủ tịch hội đồng quản lý"
-                href=""
-                coords="1281,646,1330,687,1378,729,1274,834,1201,770,1153,741,1230,612"
-                shape="poly"
-                name="room_12"
-              />
-              <area
-                target=""
-                alt="Giám đốc"
-                title="Giám đốc"
-                href=""
-                coords="1049,537,1106,555,1164,581,1225,610,1150,741,1104,716,1011,681"
-                shape="poly"
-                name="room_13"
-              />
-              <area
-                target=""
-                alt="Thang máy"
-                title="Thang máy"
-                href=""
-                coords="920,513,973,521,964,623,913,617"
-                shape="poly"
-                name="room_14"
-              />
-              <area
-                target=""
-                alt="Thang bộ"
-                title="Thang bộ"
-                href=""
-                coords="976,522,1042,535,1007,681,907,663,909,621,969,626"
-                shape="poly"
-                name="room_15"
-              />
-              <area
-                target=""
-                alt="Sảnh tầng 2"
-                title="Sảnh tầng 2"
-                href=""
-                coords="790,515,851,513,920,518,904,666,805,662"
-                shape="poly"
-                name="room_16"
-              />
-              <area
-                target=""
-                alt="Kỹ thuật"
-                title="Kỹ thuật"
-                href=""
-                coords="663,535,672,564,789,542,785,515"
-                shape="poly"
-                name="room_17"
-              />
-              <area
-                target=""
-                alt="WC"
-                title="WC"
-                href=""
-                coords="672,568,732,557,790,550,803,666,754,672,701,681"
-                shape="poly"
-                name="room_18"
-              />
-              <area
-                target=""
-                alt="Cầu thang thoát hiểm"
-                title="Cầu thang thoát hiểm"
-                href=""
-                coords="601,555,655,538,697,682,654,697"
-                shape="poly"
-                name="room_19"
-              />
-              <area
-                target=""
-                alt="Phó Giám đốc"
-                title="Phó Giám đốc"
-                href=""
-                coords="593,558,644,699,579,726,535,754,453,628,509,595"
-                shape="poly"
-                name="room_20"
-              />
-              <area
-                target=""
-                alt="Phó Giám đốc"
-                title="Phó Giám đốc"
-                href=""
-                coords="328,732,357,701,398,666,451,632,488,694,528,756,468,802,435,833"
-                shape="poly"
-                name="room_21"
-              />
-              <area
-                target=""
-                alt="Phòng nghiên cứu phát triển và chuyển giao công nghệ"
-                title="Phòng nghiên cứu phát triển và chuyển giao công nghệ"
-                href=""
-                coords="320,731,433,839,389,881,365,917,241,831,281,780"
-                shape="poly"
-                name="room_22"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="201,796,289,690,393,601,482,541,579,506,643,488,712,470,783,462,785,428,849,426,925,428,922,455,989,471,1057,484,1122,508,1197,532,1254,557,1312,597,1336,623,1365,647,1391,669,1412,690,1383,721,1336,679,1285,641,1232,605,1168,575,1110,552,1048,528,914,513,856,513,790,512,750,515,703,521,637,539,570,564,535,575,466,612,422,643,356,689,331,720,276,774,238,827"
-                shape="poly"
-                name="room_23"
-              />
-            </map>
+              <map name="1b-floor-6">
+                <area
+                  target=""
+                  alt="BATTERY FARM"
+                  title="BATTERY FARM"
+                  href=""
+                  coords="350,307,399,483,451,685,649,644,621,419,834,402,840,239,612,260"
+                  shape="poly"
+                  name="room_1"
+                />
+                <area
+                  target=""
+                  alt="UPS ROOM"
+                  title="UPS ROOM"
+                  href=""
+                  coords="618,417,646,640,743,631,838,628,835,405"
+                  shape="poly"
+                  name="room_2"
+                />
+                <area
+                  target=""
+                  alt="CIVIL SNOC"
+                  title="CIVIL SNOC"
+                  href=""
+                  coords="841,243,841,630,1035,643,1084,259"
+                  shape="poly"
+                  name="room_3"
+                />
+                <area
+                  target=""
+                  alt="MILITARY SNOC"
+                  title="MILITARY SNOC"
+                  href=""
+                  coords="1088,259,1062,453,1036,639,1227,681,1285,480,1328,313,1227,282"
+                  shape="poly"
+                  name="room_4"
+                />
+                <area
+                  target=""
+                  alt="KHO KỸ THUẬT"
+                  title="KHO KỸ THUẬT"
+                  href=""
+                  coords="475,782,515,908,728,869,719,741"
+                  shape="poly"
+                  name="room_5"
+                />
+                <area
+                  target=""
+                  alt="NHÀ VỆ SINH"
+                  title="NHÀ VỆ SINH"
+                  href=""
+                  coords="514,910,550,1057,753,1021,745,939,736,874"
+                  shape="poly"
+                  name="room_6"
+                />
+                <area
+                  target=""
+                  alt="SẢNH TẦNG 6"
+                  title="SẢNH TẦNG 6"
+                  href=""
+                  coords="728,742,733,870,752,1027,932,1024,947,853,956,746"
+                  shape="poly"
+                  name="room_7"
+                />
+                <area
+                  target=""
+                  alt="THANG MÁY"
+                  title="THANG MÁY"
+                  href=""
+                  coords="959,737,945,872,932,1023,1047,1039,1060,872,1066,750"
+                  shape="poly"
+                  name="room_8"
+                />
+                <area
+                  target=""
+                  alt="THANG BỘ"
+                  title="THANG BỘ"
+                  href=""
+                  coords="1066,750,1048,1039,1132,1060,1199,783"
+                  shape="poly"
+                  name="room_9"
+                />
+              </map>
+            </div>
           </div>
-          <div class="card" id="opt-3">
-            <img
-              class="image"
-              src="images/3.png"
-              id="1b-floor-3"
-              usemap="#1b-floor-3"
-            />
-            <map name="1b-floor-3">
-              <area
-                target=""
-                alt="Phòng đào tạo kỹ năng CNTT 02"
-                title="Phòng đào tạo kỹ năng CNTT 02"
-                href=""
-                coords="148,559,220,631,298,707,345,664,410,617,350,528,287,442"
-                shape="poly"
-                name="room_1"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo kỹ năng CNTT 01"
-                title="Phòng đào tạo kỹ năng CNTT 01"
-                href=""
-                coords="292,438,349,526,413,613,463,580,535,545,491,442,447,349"
-                shape="poly"
-                name="room_2"
-              />
-              <area
-                target=""
-                alt="Sảnh nghỉ giải lao"
-                title="Sảnh nghỉ giải lao"
-                href=""
-                coords="465,389,493,445,537,542,672,492,639,380,629,326"
-                shape="poly"
-                name="room_3"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo an toàn ANTT 02"
-                title="Phòng đào tạo an toàn ANTT 02"
-                href=""
-                coords="617,287,642,382,672,492,815,467,804,356,794,255"
-                shape="poly"
-                name="room_4"
-              />
-              <area
-                target=""
-                alt="Phòng thi tiếng anh CNTT trực tuyến"
-                title="Phòng thi tiếng anh CNTT trực tuyến"
-                href=""
-                coords="802,255,806,346,815,434,892,431,964,434,972,332,983,254"
-                shape="poly"
-                name="room_5"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo an toàn ANTT 01"
-                title="Phòng đào tạo an toàn ANTT 01"
-                href=""
-                coords="978,256,973,352,965,468,1034,476,1102,491,1131,380,1155,286"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="Sảnh nghỉ giải lao"
-                title="Sảnh nghỉ giải lao"
-                href=""
-                coords="1142,325,1125,403,1103,494,1171,516,1237,540,1281,449,1312,386"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo Tác chiến không gian mạng 02"
-                title="Phòng đào tạo Tác chiến không gian mạng 02"
-                href=""
-                coords="1329,348,1284,450,1241,541,1312,581,1362,612,1426,523,1484,438"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo Tác chiến không gian mạng 01"
-                title="Phòng đào tạo Tác chiến không gian mạng 01"
-                href=""
-                coords="1488,439,1436,518,1364,615,1428,662,1478,706,1550,632,1627,557"
-                shape="poly"
-                name="room_9"
-              />
-              <area
-                target=""
-                alt="Phòng thảo luận giáo viên"
-                title="Phòng thảo luận giáo viên"
-                href=""
-                coords="344,750,388,796,454,859,493,823,534,790,487,725,446,664"
-                shape="poly"
-                name="room_10"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo tiếng anh 02"
-                title="Phòng đào tạo tiếng anh 02"
-                href=""
-                coords="446,663,485,722,538,788,606,751,673,719,648,639,623,569,535,611"
-                shape="poly"
-                name="room_11"
-              />
-              <area
-                target=""
-                alt="Cầu thang bộ"
-                title="Cầu thang bộ"
-                href=""
-                coords="623,569,650,644,678,718,730,700,702,612,686,551"
-                shape="poly"
-                name="room_12"
-              />
-              <area
-                target=""
-                alt="Phòng kỹ thuật"
-                title="Phòng kỹ thuật"
-                href=""
-                coords="686,547,695,580,822,560,819,526"
-                shape="poly"
-                name="room_13"
-              />
-              <area
-                target=""
-                alt="Nhà vệ sinh"
-                title="Nhà vệ sinh"
-                href=""
-                coords="695,581,730,699,785,688,837,682,826,558"
-                shape="poly"
-                name="room_14"
-              />
-              <area
-                target=""
-                alt="Sảnh tầng 3"
-                title="Sảnh tầng 3"
-                href=""
-                coords="821,531,826,588,838,682,891,681,943,683,946,591,951,531"
-                shape="poly"
-                name="room_15"
-              />
-              <area
-                target=""
-                alt="Thang máy"
-                title="Thang máy"
-                href=""
-                coords="953,526,948,589,943,682,1000,690,1009,586,1011,533"
-                shape="poly"
-                name="room_16"
-              />
-              <area
-                target=""
-                alt="Thang bộ"
-                title="Thang bộ"
-                href=""
-                coords="1012,531,1008,585,1000,688,1047,701,1070,613,1084,549"
-                shape="poly"
-                name="room_17"
-              />
-              <area
-                target=""
-                alt="Phòng thảo luận giáo viên"
-                title="Phòng thảo luận giáo viên"
-                href=""
-                coords="1091,548,1070,613,1050,699,1094,718,1147,738,1177,666,1215,594"
-                shape="poly"
-                name="room_18"
-              />
-              <area
-                target=""
-                alt="Phòng đào tạo tiếng anh 01"
-                title="Phòng đào tạo tiếng anh 01"
-                href=""
-                coords="1213,597,1186,660,1150,737,1241,792,1321,859,1383,803,1437,751,1324,658"
-                shape="poly"
-                name="room_19"
-              />
+  
+          <div id="group-office-3">
+            <div class="card" id="opt-1">
+              <div style="width: 100%">
+                <img src="images/1c/1C1.png" id="1c-floor-1" usemap="#1c-floor-1"  />
+              </div>
+  
+            <map name="1c-floor-1">
+              <area target="" alt="Hội trường 300 chỗ, 320m2" title="Hội trường 300 chỗ, 320m2" href="" coords="403,899,546,759,329,446,257,498,134,624,88,684" shape="poly" name="room_1" />
+              <area target="" alt="Khu thư viện, 259m2" title="Khu thư viện, 259m2" href="" coords="541,333,701,287,865,273,1028,290,996,472,865,464,733,473,607,509" shape="poly" name= 'room_2' />
+              <area target="" alt="Sảnh giải lao" title="Sảnh giải lao" href="" coords="378,515,449,470,433,439,552,381,567,412,558,426,575,476,587,476,601,513,440,592" shape="poly" name= 'room_3' />
+              <area target="" alt="Phòng hội thảo, 64m2" title="Phòng hội thảo, 64m2" href="" coords="623,562,709,536,801,525,812,662,673,690" shape="poly" name= 'room_4' />
+              <area target="" alt="Sảnh khu hợp tác NCPT" title="Sảnh khu hợp tác NCPT" href="" coords="1027,350,1159,389,1151,412,1137,412,1119,462,1133,475,1113,513,1004,479,1010,439,1027,441,1036,386,1021,376" shape="poly" name= 'room_5' />
+              <area target="" alt="Khu trưng bày sản phẩm, 259m2" title="Khu trưng bày sản phẩm, 259m2" href="" coords="1188,333,1340,402,1474,494,1586,611,1443,728,1352,637,1243,562,1125,507" shape="poly" name= 'room_6' />
+              <area target="" alt="Phòng kho tổng hợp, 42m2" title="Phòng kho tổng hợp, 42m2" href="" coords="1149,736,1217,616,1312,682,1223,788" shape="poly" name= 'room_7' />
+              <area target="" alt="P. giáo vụ quản lý học viên, 42m2" title="P. giáo vụ quản lý học viên, 42m2" href="" coords="1318,684,1400,769,1292,855,1228,792" shape="poly" name= 'room_8' />
+              <area target="" alt="P. sinh hoạt chung, 84m2" title="P. sinh hoạt chung, 84m2" href="" coords="1593,614,1684,749,1521,841,1446,740" shape="poly" name= 'room_9' />
+              <area target="" alt="P. quản lý kỹ thuật, 42m2" title="P. quản lý kỹ thuật, 42m2" href="" coords="1401,771,1472,870,1352,940,1297,862" shape="poly" name= 'room_10' />
+              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="82,684,402,904,384,938,47,744,46,743,47,743" shape="poly" name='room_11'>
+              <area target="" alt="Hành lang" title="Hành lang" href="" coords="517,551,439,600,468,641,517,620,585,726,670,689,623,557,717,531,866,520,993,530,1103,562,1217,611,1351,712,1480,866,1521,845,1441,732,1300,605,1134,516,1066,500,999,482,863,467,736,482,608,511" shape="poly" name='room_12'>
+              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="550,755,579,735,516,620,471,643" shape="poly" name='room_13'>
+              <area target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="866,521,989,532,985,557,866,548" shape="poly" name='room_14'>
+              <area target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="866,549,985,562,965,665,865,658" shape="poly" name='room_15'>
+              <area target="" alt="Thang máy" title="Thang máy" href="" coords="1057,693,1103,714,1149,582,1102,567" shape="poly" name='room_16'>
+              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1103,714,1140,730,1211,613,1152,585" shape="poly" name='room_17'>
+              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1364,968,1738,787,1715,738,1357,942" shape="poly" name='room_18'>
             </map>
-          </div>
-          <div class="card" id="opt-4">
-            <img
-              class="image"
-              src="images/4.png"
-              id="1b-floor-4"
-              usemap="#1b-floor-4"
-            />
-            <map name="1b-floor-4">
-              <area
-                target=""
-                alt="Đào tạo lập trình nhúng"
-                title="Đào tạo lập trình nhúng"
-                href=""
-                coords="191,497,244,463,313,427,366,393,475,623,435,642,366,682,334,705"
-                shape="poly"
-                name="room_1"
-              />
-              <area
-                target=""
-                alt="Sảnh nghỉ giải lao"
-                title="Sảnh nghỉ giải lao"
-                href=""
-                coords="397,433,479,405,580,366,633,568,482,622"
-                shape="poly"
-                name="room_2"
-              />
-              <area
-                target=""
-                alt="Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM"
-                title="Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM"
-                href=""
-                coords="576,318,680,299,774,290,875,284,960,284,1025,290,1096,301,1166,315,1200,318,1138,564,1069,545,1039,541,936,528,840,532,759,535,715,545,642,560"
-                shape="poly"
-                name="room_3"
-              />
-              <area
-                target=""
-                alt="Sảnh nghỉ giải lao"
-                title="Sảnh nghỉ giải lao"
-                href=""
-                coords="1195,368,1378,434,1292,623,1141,568"
-                shape="poly"
-                name="room_4"
-              />
-              <area
-                target=""
-                alt="Đào tạo lập trình ứng dụng"
-                title="Đào tạo lập trình ứng dụng"
-                href=""
-                coords="1404,393,1459,427,1530,467,1587,500,1448,705,1339,640,1301,623"
-                shape="poly"
-                name="room_5"
-              />
-              <area
-                target=""
-                alt="Đào tạo quản trị mạng và hệ thống"
-                title="Đào tạo quản trị mạng và hệ thống"
-                href=""
-                coords="1126,631,1179,646,1265,683,1336,719,1362,734,1402,759,1299,909,1204,852,1174,839,1080,804"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="Cầu thang bộ"
-                title="Cầu thang bộ"
-                href=""
-                coords="1037,614,1119,631,1069,804,951,781,953,734,1027,743"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="Thang máy"
-                title="Thang máy"
-                href=""
-                coords="972,602,1033,614,1021,734,957,728"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="Sảnh tầng 4"
-                title="Sảnh tầng 4"
-                href=""
-                coords="814,606,863,606,913,604,962,606,949,783,831,781"
-                shape="poly"
-                name="room_9"
-              />
-              <area
-                target=""
-                alt="WC"
-                title="WC"
-                href=""
-                coords="812,640,825,781,768,791,709,802,673,671"
-                shape="poly"
-                name="room_10"
-              />
-              <area
-                target=""
-                alt="Kỹ thuật"
-                title="Kỹ thuật"
-                href=""
-                coords="660,628,665,665,814,638,808,608,741,609"
-                shape="poly"
-                name="room_11"
-              />
-              <area
-                target=""
-                alt="Cầu thang thoát hiểm"
-                title="Cầu thang thoát hiểm"
-                href=""
-                coords="585,655,656,630,700,806,646,823"
-                shape="poly"
-                name="room_12"
-              />
-              <area
-                target=""
-                alt="Đào tạo trực tuyến"
-                title="Đào tạo trực tuyến"
-                href=""
-                coords="374,764,425,726,524,677,578,656,640,825,597,842,536,873,479,911"
-                shape="poly"
-                name="room_13"
-              />
-              <area
-                target=""
-                alt="Hành lang"
-                title="Hành lang"
-                href=""
-                coords="336,711,410,665,482,623,635,570,738,551,867,538,976,543,1042,551,1141,570,1296,627,1383,677,1439,713,1412,755,1336,707,1206,650,1128,625,1037,602,960,599,816,600,776,599,648,625,564,656,519,669,416,719,368,757"
-                shape="poly"
-                name="room_14"
-              />
+            </div>
+            <div class="card" id="opt-2">
+              <div style="width: 100%">
+                <img src="images/1c/1C2.png" id="1c-floor-2" usemap="#1c-floor-2"  />
+              </div>
+  
+              <map name="1c-floor-2">
+                <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="353,383,422,342,559,291,715,263,873,260,955,274,922,448,800,439,675,451,554,482,441,535" shape="poly" name="room_1">
+                <area target="" alt="Khu hợp tác NCPM, 110m2" title="Khu hợp tác NCPM, 110m2" href="" coords="469,579,571,531,684,500,737,495,749,628,647,648,537,693" shape="poly" name="room_2">
+                <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="1102,314,1178,342,1308,417,1423,512,1503,601,1573,705,1417,797,1345,694,1257,605,1156,536,1040,479" shape="poly" name="room_3">
+                <area target="" alt="Khu hợp tác NCPM, 133m2" title="Khu hợp tác NCPM, 133m2" href="" coords="1065,697,1132,583,1222,643,1306,727,1372,823,1260,888,1205,814,1139,748" shape="poly" name="room_4">
+                <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="59,646,326,831,306,862,28,704" shape="poly" name="room_5">
+                <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="294,413,349,381,510,660,477,680" shape="poly" name="room_6">
+                <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="744,495,797,495,797,623,756,625" shape="poly" name="room_7">
+                <area target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="805,489,914,501,911,529,802,518" shape="poly" name="room_8">
+                <area target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="802,522,910,532,893,630,802,621" shape="poly" name="room_9">
+                <area target="" alt="Thang máy" title="Thang máy" href="" coords="1023,530,1068,547,1026,676,980,656" shape="poly" name="room_10">
+                <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1071,551,1129,583,1065,695,1026,674" shape="poly" name="room_11">
+                <area target="" alt="Hành lang" title="Hành lang" href="" coords="443,539,556,486,675,453,800,444,921,453,1040,484,1154,539,1257,609,1345,696,1413,796,1378,823,1308,725,1229,647,1130,581,1026,529,917,498,800,489,686,496,563,530,470,580" shape="poly" name="room_12">
+            </map>
+            </div>
+            <div class="card" id="opt-3">
+              <div style="width: 100%">
+                <img src="images/1c/1C3.png" id="1c-floor-3" usemap="#1c-floor-3" />
+              </div>
+  
+              <map name="1c-floor-3">
+                <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="330,378,398,342,530,294,677,267,819,267,897,278,867,444,751,434,634,444,522,474,416,524" shape="poly" name="room_1">
+                <area target="" alt="Khu hợp tác NCPM, 110m2" title="Khu hợp tác NCPM, 110m2" href="" coords="440,568,536,523,646,493,695,485,704,609,623,626,503,673" shape="poly" name="room_2">
+                <area target="" alt="Sân mái" title="Sân mái" href="" coords="108,556,214,454,322,378,493,679,375,780" shape="poly" name="room_3">
+                <area target="" alt="Chỗ nghỉ giải lao" title="Chỗ nghỉ giải lao" href="" coords="897,312,1020,344,974,476,873,448" shape="poly" name="room_4">
+                <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="1038,316,1106,343,1229,413,1335,501,1410,585,1466,664,1477,686,1330,769,1265,674,1182,588,1088,524,980,474" shape="poly" name="room_5">
+                <area target="" alt="Khu hợp tác NCPM, 133m2" title="Khu hợp tác NCPM, 133m2" href="" coords="1004,676,1065,567,1149,627,1227,705,1288,795,1183,856,1133,785,1072,725" shape="poly" name="room_6">
+                <area target="" alt="Hành lang" title="Hành lang" href="" coords="417,529,522,478,636,446,751,439,866,446,979,479,1082,528,1179,595,1262,676,1329,771,1292,793,1229,702,1153,627,1061,567,963,521,862,491,751,480,647,488,536,518,438,563" shape="poly" name="room_7">
+                <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="697,487,749,486,752,608,711,610" shape="poly" name="room_8">
+                <area target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="756,484,859,493,857,515,755,508" shape="poly" name="room_9">
+                <area target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="753,511,857,520,840,613,755,606" shape="poly" name="room_10">
+                <area target="" alt="Thang máy" title="Thang máy" href="" coords="960,522,1004,536,963,657,919,638" shape="poly" name="room_11">
+                <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1006,542,1059,567,1004,675,964,657" shape="poly" name="room_12">
+            </map>
+            </div>
+            
+            <div class="card" id="opt-4">
+              <div style="width: 100%">
+                <img src="images/1c/1C4.png" id="1c-floor-4" usemap="#1c-floor-4" />
+              </div>
+  
+              <map name="1c-floor-4">
+                <area name="room_1" target="" alt="Khu hợp tác NCPM, 259m2" title="Khu hợp tác NCPM, 259m2" href="" coords="323,649,207,488,356,402,515,344,684,314,702,514,569,539,441,584" shape="poly">
+                <area name="room_2" target="" alt="Chổ nghỉ giải lao" title="Chổ nghỉ giải lao" href="" coords="706,517,693,353,843,357,832,519" shape="poly">
+                <area name="room_3" target="" alt="Khu hợp tác NCPM, 259m2" title="Khu hợp tác NCPM, 259m2" href="" coords="832,515,850,318,1016,347,1176,401,1322,490,1212,654,1092,584,968,539" shape="poly">
+                <area name="room_4" target="" alt="Khu hợp tác NCPM, 84m2" title="Khu hợp tác NCPM, 84m2" href="" coords="1180,699,1097,815,1005,764,910,729,950,592,1069,632" shape="poly">
+                <area name="room_5" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="948,589,882,580,874,676,920,684" shape="poly">
+                <area name="room_6" target="" alt="Hành lang" title="Hành lang" href="" coords="820,679,818,713,907,729,920,687,878,677" shape="poly">
+                <area name="room_7" target="" alt="Thang máy" title="Thang máy" href="" coords="816,672,829,567,880,577,873,676" shape="poly">
+                <area name="room_8" target="" alt="Sảnh" title="Sảnh " href="" coords="709,571,727,713,816,713,826,568" shape="poly">
+                <area name="room_9" target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="593,620,622,731,725,715,711,597" shape="poly">
+                <area name="room_10" target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="583,589,703,568,710,597,590,619" shape="poly">
+                <area name="room_11" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="581,592,524,607,571,746,622,731" shape="poly">
+                <area name="room_12" target="" alt="Khu hợp tác NCPM, 84m2" title="Khu hợp tác NCPM, 84m2" href="" coords="519,608,352,692,437,812,569,749" shape="poly">
+                <area name="room_13" target="" alt="Hành lang" title="Hành lang" href="" coords="327,652,438,589,567,543,698,518,829,519,962,543,1088,584,1207,656,1183,695,1077,632,962,590,832,564,707,564,562,593,495,615,410,659,353,695" shape="poly">
             </map>
           </div>
           <div class="card" id="opt-5">
-            <img
-              class="image"
-              src="images/5.png"
-              id="1b-floor-5"
-              usemap="#1b-floor-5"
-            />
-            <map name="1b-floor-5">
-              <area
-                target=""
-                alt="CIVIL SERVER FARM"
-                title="CIVIL SERVER FARM"
-                href=""
-                coords="248,414,305,550,365,677,562,608,790,574,1008,581,1032,435,1050,293,729,281,472,329"
-                shape="poly"
-                name="room_1"
-              />
-              <area
-                target=""
-                alt="MIUTARY SERVER FARM"
-                title="MIUTARY SERVER FARM"
-                href=""
-                coords="1053,295,1032,431,1010,581,1169,616,1320,675,1387,540,1442,413,1260,341"
-                shape="poly"
-                name="room_2"
-              />
-              <area
-                target=""
-                alt="PHÒNG HỌP"
-                title="PHÒNG HỌP"
-                href=""
-                coords="396,743,491,943,560,913,485,713"
-                shape="poly"
-                name="room_3"
-              />
-              <area
-                target=""
-                alt="THANG BỘ"
-                title="THANG BỘ"
-                href=""
-                coords="485,709,562,912,630,889,574,684"
-                shape="poly"
-                name="room_4"
-              />
-              <area
-                target=""
-                alt="KHO KỸ THUẬT"
-                title="KHO KỸ THUẬT"
-                href=""
-                coords="574,682,599,778,757,751,754,652,665,666"
-                shape="poly"
-                name="room_5"
-              />
-              <area
-                target=""
-                alt="NHÀ VỆ SINH"
-                title="NHÀ VỆ SINH"
-                href=""
-                coords="600,778,635,889,778,867,763,752"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="SẢNH TẦNG 5"
-                title="SẢNH TẦNG 5"
-                href=""
-                coords="756,654,763,753,778,864,914,869,930,657"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="THANG MÁY"
-                title="THANG MÁY"
-                href=""
-                coords="932,647,915,870,996,878,1015,657"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="THANG BỘ"
-                title="THANG BỘ"
-                href=""
-                coords="1012,659,998,878,1066,893,1118,684"
-                shape="poly"
-                name="room_9"
-              />
-              <area
-                target=""
-                alt="PHÒNG LÀM VIỆC"
-                title="PHÒNG LÀM VIỆC"
-                href=""
-                coords="1117,683,1063,890,1204,942,1292,745"
-                shape="poly"
-                name="room_10"
-              />
+            <div style="width: 100%">
+              <img src="images/1c/1C5.png" id="1c-floor-5" usemap="#1c-floor-5" />
+  
+              <map name="1c-floor-5">
+                <area name="room_1" target="" alt="Khu hợp tác NCPM, 426M2" title="Khu hợp tác NCPM, 426M2" href="" coords="409,627,306,417,500,346,698,310,898,312,1094,344,1288,415,1189,629,1039,574,879,549,725,545,562,575" shape="poly">
+                <area name="room_2" target="" alt="Khu hợp tác NCPM, 42M2" title="Khu hợp tác NCPM, 42M2" href="" coords="1166,687,1096,850,981,806,1022,635,1096,655" shape="poly">
+                <area name="room_3" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="940,620,932,738,989,748,1022,640" shape="poly">
+                <area name="room_4" target="" alt="Hành lang" title="Hành lang" href="" coords="858,783,861,729,933,737,986,749,974,805" shape="poly">
+                <area name="room_5" target="" alt="Sảnh" title="Sảnh " href="" coords="438,685,410,635,570,579,729,553,882,553,1039,579,1184,635,1164,681,1081,647,1022,631,943,616,869,607,854,781,755,780,740,643,738,606,666,612,582,633" shape="poly">
+                <area name="room_6" target="" alt="Thang máy" title="Thang máy" href="" coords="862,727,925,736,939,621,876,611" shape="poly">
+                <area name="room_7" target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="593,674,627,804,759,788,739,650" shape="poly">
+                <area name="room_8" target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="581,637,734,608,734,650,594,672" shape="poly">
+                <area name="room_9" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="512,663,578,639,626,806,571,823" shape="poly">
+                <area name="room_10" target="" alt="Kho, 21M2" title="Kho, 21M2" href="" coords="437,687,516,849,570,825,509,662" shape="poly">
             </map>
+            </div>
           </div>
           <div class="card" id="opt-6">
-            <img
-              class="image"
-              src="images/6.png"
-              id="1b-floor-6"
-              usemap="#1b-floor-6"
-            />
-            <map name="1b-floor-6">
-              <area
-                target=""
-                alt="BATTERY FARM"
-                title="BATTERY FARM"
-                href=""
-                coords="350,307,399,483,451,685,649,644,621,419,834,402,840,239,612,260"
-                shape="poly"
-                name="room_1"
-              />
-              <area
-                target=""
-                alt="UPS ROOM"
-                title="UPS ROOM"
-                href=""
-                coords="618,417,646,640,743,631,838,628,835,405"
-                shape="poly"
-                name="room_2"
-              />
-              <area
-                target=""
-                alt="CIVIL SNOC"
-                title="CIVIL SNOC"
-                href=""
-                coords="841,243,841,630,1035,643,1084,259"
-                shape="poly"
-                name="room_3"
-              />
-              <area
-                target=""
-                alt="MILITARY SNOC"
-                title="MILITARY SNOC"
-                href=""
-                coords="1088,259,1062,453,1036,639,1227,681,1285,480,1328,313,1227,282"
-                shape="poly"
-                name="room_4"
-              />
-              <area
-                target=""
-                alt="KHO KỸ THUẬT"
-                title="KHO KỸ THUẬT"
-                href=""
-                coords="475,782,515,908,728,869,719,741"
-                shape="poly"
-                name="room_5"
-              />
-              <area
-                target=""
-                alt="NHÀ VỆ SINH"
-                title="NHÀ VỆ SINH"
-                href=""
-                coords="514,910,550,1057,753,1021,745,939,736,874"
-                shape="poly"
-                name="room_6"
-              />
-              <area
-                target=""
-                alt="SẢNH TẦNG 6"
-                title="SẢNH TẦNG 6"
-                href=""
-                coords="728,742,733,870,752,1027,932,1024,947,853,956,746"
-                shape="poly"
-                name="room_7"
-              />
-              <area
-                target=""
-                alt="THANG MÁY"
-                title="THANG MÁY"
-                href=""
-                coords="959,737,945,872,932,1023,1047,1039,1060,872,1066,750"
-                shape="poly"
-                name="room_8"
-              />
-              <area
-                target=""
-                alt="THANG BỘ"
-                title="THANG BỘ"
-                href=""
-                coords="1066,750,1048,1039,1132,1060,1199,783"
-                shape="poly"
-                name="room_9"
-              />
-            </map>
-          </div>
-        </div>
-
-        <div id="group-office-3">
-          <div class="card" id="opt-1">
             <div style="width: 100%">
-              <img src="images/1c/1C1.png" id="1c-floor-1" usemap="#1c-floor-1"  />
+              <img src="images/1c/1C6.png" id="1c-floor-6" usemap="#1c-floor-6" />
+  
+  
+  <map name="1c-floor-6">
+      <area name="room_1" target="" alt="Phòng nghỉ chuyên gia 01" title="Phòng nghỉ chuyên gia 01" href="" coords="512,575,442,316,556,303,593,539,567,537,561,560" shape="poly">
+      <area name="room_2" target="" alt="Phòng nghỉ chuyên gia 02" title="Phòng nghỉ chuyên gia 02" href="" coords="596,533,556,296,656,286,683,544,630,548,622,531" shape="poly">
+      <area name="room_3" target="" alt="Phòng nghỉ chuyên gia 03" title="Phòng nghỉ chuyên gia 03" href="" coords="685,542,660,284,766,284,767,519,736,522,737,540" shape="poly">
+      <area name="room_4" target="" alt="Phòng nghỉ chuyên gia 04" title="Phòng nghỉ chuyên gia 04" href="" coords="770,519,775,279,877,292,853,542,800,539,799,518" shape="poly">
+      <area name="room_5" target="" alt="Phòng nghỉ chuyên gia 05" title="Phòng nghỉ chuyên gia 05" href="" coords="880,286,984,303,943,533,913,529,903,548,857,543" shape="poly">
+      <area name="room_6" target="" alt="Phòng nghỉ chuyên gia 06" title="Phòng nghỉ chuyên gia 06" href="" coords="987,304,1088,327,1024,577,980,562,977,540,947,534" shape="poly">
+      <area name="room_7" target="" alt="Phòng ngủ Master" title="Phòng ngủ Master" href="" coords="585,816,532,643,685,612,707,794" shape="poly">
+      <area name="room_8" target="" alt="Thang máy" title="Thang máy" href="" coords="847,614,919,621,905,750,833,748" shape="poly">
+      <area name="room_9" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="921,624,1002,637,971,762,907,748" shape="poly">
+      <area name="room_10" target="" alt="Hành lang" title="Hành lang" href="" coords="833,750,832,799,952,818,971,765,913,752" shape="poly">
+      <area name="room_11" target="" alt="Sảnh" title="Sảnh" href="" coords="508,579,630,555,732,544,800,542,909,554,1022,576,1010,632,844,608,825,795,707,797,695,613,610,618,528,634" shape="poly">
+  </map>
             </div>
-
-          <map name="1c-floor-1">
-            <area target="" alt="Hội trường 300 chỗ, 320m2" title="Hội trường 300 chỗ, 320m2" href="" coords="403,899,546,759,329,446,257,498,134,624,88,684" shape="poly" name="room_1" />
-            <area target="" alt="Khu thư viện, 259m2" title="Khu thư viện, 259m2" href="" coords="541,333,701,287,865,273,1028,290,996,472,865,464,733,473,607,509" shape="poly" name= 'room_2' />
-            <area target="" alt="Sảnh giải lao" title="Sảnh giải lao" href="" coords="378,515,449,470,433,439,552,381,567,412,558,426,575,476,587,476,601,513,440,592" shape="poly" name= 'room_3' />
-            <area target="" alt="Phòng hội thảo, 64m2" title="Phòng hội thảo, 64m2" href="" coords="623,562,709,536,801,525,812,662,673,690" shape="poly" name= 'room_4' />
-            <area target="" alt="Sảnh khu hợp tác NCPT" title="Sảnh khu hợp tác NCPT" href="" coords="1027,350,1159,389,1151,412,1137,412,1119,462,1133,475,1113,513,1004,479,1010,439,1027,441,1036,386,1021,376" shape="poly" name= 'room_5' />
-            <area target="" alt="Khu trưng bày sản phẩm, 259m2" title="Khu trưng bày sản phẩm, 259m2" href="" coords="1188,333,1340,402,1474,494,1586,611,1443,728,1352,637,1243,562,1125,507" shape="poly" name= 'room_6' />
-            <area target="" alt="Phòng kho tổng hợp, 42m2" title="Phòng kho tổng hợp, 42m2" href="" coords="1149,736,1217,616,1312,682,1223,788" shape="poly" name= 'room_7' />
-            <area target="" alt="P. giáo vụ quản lý học viên, 42m2" title="P. giáo vụ quản lý học viên, 42m2" href="" coords="1318,684,1400,769,1292,855,1228,792" shape="poly" name= 'room_8' />
-            <area target="" alt="P. sinh hoạt chung, 84m2" title="P. sinh hoạt chung, 84m2" href="" coords="1593,614,1684,749,1521,841,1446,740" shape="poly" name= 'room_9' />
-            <area target="" alt="P. quản lý kỹ thuật, 42m2" title="P. quản lý kỹ thuật, 42m2" href="" coords="1401,771,1472,870,1352,940,1297,862" shape="poly" name= 'room_10' />
-            <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="82,684,402,904,384,938,47,744,46,743,47,743" shape="poly" name='room_11'>
-            <area target="" alt="Hành lang" title="Hành lang" href="" coords="517,551,439,600,468,641,517,620,585,726,670,689,623,557,717,531,866,520,993,530,1103,562,1217,611,1351,712,1480,866,1521,845,1441,732,1300,605,1134,516,1066,500,999,482,863,467,736,482,608,511" shape="poly" name='room_12'>
-            <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="550,755,579,735,516,620,471,643" shape="poly" name='room_13'>
-            <area target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="866,521,989,532,985,557,866,548" shape="poly" name='room_14'>
-            <area target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="866,549,985,562,965,665,865,658" shape="poly" name='room_15'>
-            <area target="" alt="Thang máy" title="Thang máy" href="" coords="1057,693,1103,714,1149,582,1102,567" shape="poly" name='room_16'>
-            <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1103,714,1140,730,1211,613,1152,585" shape="poly" name='room_17'>
-            <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1364,968,1738,787,1715,738,1357,942" shape="poly" name='room_18'>
-          </map>
-          </div>
-          <div class="card" id="opt-2">
-            <div style="width: 100%">
-              <img src="images/1c/1C2.png" id="1c-floor-2" usemap="#1c-floor-2"  />
-            </div>
-
-            <map name="1c-floor-2">
-              <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="353,383,422,342,559,291,715,263,873,260,955,274,922,448,800,439,675,451,554,482,441,535" shape="poly" name="room_1">
-              <area target="" alt="Khu hợp tác NCPM, 110m2" title="Khu hợp tác NCPM, 110m2" href="" coords="469,579,571,531,684,500,737,495,749,628,647,648,537,693" shape="poly" name="room_2">
-              <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="1102,314,1178,342,1308,417,1423,512,1503,601,1573,705,1417,797,1345,694,1257,605,1156,536,1040,479" shape="poly" name="room_3">
-              <area target="" alt="Khu hợp tác NCPM, 133m2" title="Khu hợp tác NCPM, 133m2" href="" coords="1065,697,1132,583,1222,643,1306,727,1372,823,1260,888,1205,814,1139,748" shape="poly" name="room_4">
-              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="59,646,326,831,306,862,28,704" shape="poly" name="room_5">
-              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="294,413,349,381,510,660,477,680" shape="poly" name="room_6">
-              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="744,495,797,495,797,623,756,625" shape="poly" name="room_7">
-              <area target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="805,489,914,501,911,529,802,518" shape="poly" name="room_8">
-              <area target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="802,522,910,532,893,630,802,621" shape="poly" name="room_9">
-              <area target="" alt="Thang máy" title="Thang máy" href="" coords="1023,530,1068,547,1026,676,980,656" shape="poly" name="room_10">
-              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1071,551,1129,583,1065,695,1026,674" shape="poly" name="room_11">
-              <area target="" alt="Hành lang" title="Hành lang" href="" coords="443,539,556,486,675,453,800,444,921,453,1040,484,1154,539,1257,609,1345,696,1413,796,1378,823,1308,725,1229,647,1130,581,1026,529,917,498,800,489,686,496,563,530,470,580" shape="poly" name="room_12">
-          </map>
-          </div>
-          <div class="card" id="opt-3">
-            <div style="width: 100%">
-              <img src="images/1c/1C3.png" id="1c-floor-3" usemap="#1c-floor-3" />
-            </div>
-
-            <map name="1c-floor-3">
-              <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="330,378,398,342,530,294,677,267,819,267,897,278,867,444,751,434,634,444,522,474,416,524" shape="poly" name="room_1">
-              <area target="" alt="Khu hợp tác NCPM, 110m2" title="Khu hợp tác NCPM, 110m2" href="" coords="440,568,536,523,646,493,695,485,704,609,623,626,503,673" shape="poly" name="room_2">
-              <area target="" alt="Sân mái" title="Sân mái" href="" coords="108,556,214,454,322,378,493,679,375,780" shape="poly" name="room_3">
-              <area target="" alt="Chỗ nghỉ giải lao" title="Chỗ nghỉ giải lao" href="" coords="897,312,1020,344,974,476,873,448" shape="poly" name="room_4">
-              <area target="" alt="Khu hợp tác NCPM, 346m2" title="Khu hợp tác NCPM, 346m2" href="" coords="1038,316,1106,343,1229,413,1335,501,1410,585,1466,664,1477,686,1330,769,1265,674,1182,588,1088,524,980,474" shape="poly" name="room_5">
-              <area target="" alt="Khu hợp tác NCPM, 133m2" title="Khu hợp tác NCPM, 133m2" href="" coords="1004,676,1065,567,1149,627,1227,705,1288,795,1183,856,1133,785,1072,725" shape="poly" name="room_6">
-              <area target="" alt="Hành lang" title="Hành lang" href="" coords="417,529,522,478,636,446,751,439,866,446,979,479,1082,528,1179,595,1262,676,1329,771,1292,793,1229,702,1153,627,1061,567,963,521,862,491,751,480,647,488,536,518,438,563" shape="poly" name="room_7">
-              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="697,487,749,486,752,608,711,610" shape="poly" name="room_8">
-              <area target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="756,484,859,493,857,515,755,508" shape="poly" name="room_9">
-              <area target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="753,511,857,520,840,613,755,606" shape="poly" name="room_10">
-              <area target="" alt="Thang máy" title="Thang máy" href="" coords="960,522,1004,536,963,657,919,638" shape="poly" name="room_11">
-              <area target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="1006,542,1059,567,1004,675,964,657" shape="poly" name="room_12">
-          </map>
-          </div>
-          
-          <div class="card" id="opt-4">
-            <div style="width: 100%">
-              <img src="images/1c/1C4.png" id="1c-floor-4" usemap="#1c-floor-4" />
-            </div>
-
-            <map name="1c-floor-4">
-              <area name="room_1" target="" alt="Khu hợp tác NCPM, 259m2" title="Khu hợp tác NCPM, 259m2" href="" coords="323,649,207,488,356,402,515,344,684,314,702,514,569,539,441,584" shape="poly">
-              <area name="room_2" target="" alt="Chổ nghỉ giải lao" title="Chổ nghỉ giải lao" href="" coords="706,517,693,353,843,357,832,519" shape="poly">
-              <area name="room_3" target="" alt="Khu hợp tác NCPM, 259m2" title="Khu hợp tác NCPM, 259m2" href="" coords="832,515,850,318,1016,347,1176,401,1322,490,1212,654,1092,584,968,539" shape="poly">
-              <area name="room_4" target="" alt="Khu hợp tác NCPM, 84m2" title="Khu hợp tác NCPM, 84m2" href="" coords="1180,699,1097,815,1005,764,910,729,950,592,1069,632" shape="poly">
-              <area name="room_5" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="948,589,882,580,874,676,920,684" shape="poly">
-              <area name="room_6" target="" alt="Hành lang" title="Hành lang" href="" coords="820,679,818,713,907,729,920,687,878,677" shape="poly">
-              <area name="room_7" target="" alt="Thang máy" title="Thang máy" href="" coords="816,672,829,567,880,577,873,676" shape="poly">
-              <area name="room_8" target="" alt="Sảnh" title="Sảnh " href="" coords="709,571,727,713,816,713,826,568" shape="poly">
-              <area name="room_9" target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="593,620,622,731,725,715,711,597" shape="poly">
-              <area name="room_10" target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="583,589,703,568,710,597,590,619" shape="poly">
-              <area name="room_11" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="581,592,524,607,571,746,622,731" shape="poly">
-              <area name="room_12" target="" alt="Khu hợp tác NCPM, 84m2" title="Khu hợp tác NCPM, 84m2" href="" coords="519,608,352,692,437,812,569,749" shape="poly">
-              <area name="room_13" target="" alt="Hành lang" title="Hành lang" href="" coords="327,652,438,589,567,543,698,518,829,519,962,543,1088,584,1207,656,1183,695,1077,632,962,590,832,564,707,564,562,593,495,615,410,659,353,695" shape="poly">
-          </map>
-        </div>
-        <div class="card" id="opt-5">
-          <div style="width: 100%">
-            <img src="images/1c/1C5.png" id="1c-floor-5" usemap="#1c-floor-5" />
-
-            <map name="1c-floor-5">
-              <area name="room_1" target="" alt="Khu hợp tác NCPM, 426M2" title="Khu hợp tác NCPM, 426M2" href="" coords="409,627,306,417,500,346,698,310,898,312,1094,344,1288,415,1189,629,1039,574,879,549,725,545,562,575" shape="poly">
-              <area name="room_2" target="" alt="Khu hợp tác NCPM, 42M2" title="Khu hợp tác NCPM, 42M2" href="" coords="1166,687,1096,850,981,806,1022,635,1096,655" shape="poly">
-              <area name="room_3" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="940,620,932,738,989,748,1022,640" shape="poly">
-              <area name="room_4" target="" alt="Hành lang" title="Hành lang" href="" coords="858,783,861,729,933,737,986,749,974,805" shape="poly">
-              <area name="room_5" target="" alt="Sảnh" title="Sảnh " href="" coords="438,685,410,635,570,579,729,553,882,553,1039,579,1184,635,1164,681,1081,647,1022,631,943,616,869,607,854,781,755,780,740,643,738,606,666,612,582,633" shape="poly">
-              <area name="room_6" target="" alt="Thang máy" title="Thang máy" href="" coords="862,727,925,736,939,621,876,611" shape="poly">
-              <area name="room_7" target="" alt="Nhà vệ sinh" title="Nhà vệ sinh" href="" coords="593,674,627,804,759,788,739,650" shape="poly">
-              <area name="room_8" target="" alt="Phòng kỹ thuật" title="Phòng kỹ thuật" href="" coords="581,637,734,608,734,650,594,672" shape="poly">
-              <area name="room_9" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="512,663,578,639,626,806,571,823" shape="poly">
-              <area name="room_10" target="" alt="Kho, 21M2" title="Kho, 21M2" href="" coords="437,687,516,849,570,825,509,662" shape="poly">
-          </map>
-          </div>
-        </div>
-        <div class="card" id="opt-6">
-          <div style="width: 100%">
-            <img src="images/1c/1C6.png" id="1c-floor-6" usemap="#1c-floor-6" />
-
-
-<map name="1c-floor-6">
-    <area name="room_1" target="" alt="Phòng nghỉ chuyên gia 01" title="Phòng nghỉ chuyên gia 01" href="" coords="512,575,442,316,556,303,593,539,567,537,561,560" shape="poly">
-    <area name="room_2" target="" alt="Phòng nghỉ chuyên gia 02" title="Phòng nghỉ chuyên gia 02" href="" coords="596,533,556,296,656,286,683,544,630,548,622,531" shape="poly">
-    <area name="room_3" target="" alt="Phòng nghỉ chuyên gia 03" title="Phòng nghỉ chuyên gia 03" href="" coords="685,542,660,284,766,284,767,519,736,522,737,540" shape="poly">
-    <area name="room_4" target="" alt="Phòng nghỉ chuyên gia 04" title="Phòng nghỉ chuyên gia 04" href="" coords="770,519,775,279,877,292,853,542,800,539,799,518" shape="poly">
-    <area name="room_5" target="" alt="Phòng nghỉ chuyên gia 05" title="Phòng nghỉ chuyên gia 05" href="" coords="880,286,984,303,943,533,913,529,903,548,857,543" shape="poly">
-    <area name="room_6" target="" alt="Phòng nghỉ chuyên gia 06" title="Phòng nghỉ chuyên gia 06" href="" coords="987,304,1088,327,1024,577,980,562,977,540,947,534" shape="poly">
-    <area name="room_7" target="" alt="Phòng ngủ Master" title="Phòng ngủ Master" href="" coords="585,816,532,643,685,612,707,794" shape="poly">
-    <area name="room_8" target="" alt="Thang máy" title="Thang máy" href="" coords="847,614,919,621,905,750,833,748" shape="poly">
-    <area name="room_9" target="" alt="Cầu thang bộ" title="Cầu thang bộ" href="" coords="921,624,1002,637,971,762,907,748" shape="poly">
-    <area name="room_10" target="" alt="Hành lang" title="Hành lang" href="" coords="833,750,832,799,952,818,971,765,913,752" shape="poly">
-    <area name="room_11" target="" alt="Sảnh" title="Sảnh" href="" coords="508,579,630,555,732,544,800,542,909,554,1022,576,1010,632,844,608,825,795,707,797,695,613,610,618,528,634" shape="poly">
-</map>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    
 
     <!-- <div
       style="clear: both; width: 500px; height: 50px; border: 1px solid black"
