@@ -6,21 +6,400 @@ const data = [
         key: 'floor-1',
         data: {
           room_1: {
+            title: `Sảnh`,
+            media: [],
+          },
+          room_2: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_3: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_4: {
+            title: `Phòng mở chức năng CNTT`,
+            media: [],
+          },
+          room_5: {
+            title: `Hành lang`,
+            media: [],
+          },
+          room_6: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_7: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_8: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_9: {
+            title: `Phòng mở chức năng CNTT`,
+            media: [],
+          },
+          room_10: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_11: {
+            title: `Sảnh`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-2',
+        data: {
+          room_1: {
+            title: `P. mở chức năng CNTT`,
+            media: [],
+          },
+          room_2: {
+            title: `P. mở chức năng CNTT`,
+            media: [],
+          },
+          room_3: {
+            title: `P. mở chức năng CNTT`,
+            media: [],
+          },
+          room_4: {
+            title: `P. mở chức năng CNTT`,
+            media: [],
+          },
+          room_5: {
+            title: `P. mở chức năng CNTT`,
+            media: [],
+          },
+          room_6: {
+            title: `P. mở chức năng CNTT`,
+            media: [],
+          },
+          room_7: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_8: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_9: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_10: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_11: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_12: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_13: {
+            title: `Hành lang`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-3',
+        data: {
+          room_1: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_2: {
+            title: `Sân thượng`,
+            media: [],
+          },
+          room_3: {
+            title: `Phòng mở chức năng CNTT`,
+            media: [],
+          },
+          room_4: {
+            title: `Phòng mở chức năng CNTT`,
+            media: [],
+          },
+          room_5: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_6: {
+            title: `Thang máy`,
+            media: [],
+          },
+          room_7: {
+            title: `Nhà vệ sinh`,
+            media: [],
+          },
+          room_8: {
+            title: `Phòng kỹ thuật`,
+            media: [],
+          },
+          room_9: {
+            title: `Cầu thang bộ`,
+            media: [],
+          },
+          room_10: {
+            title: `Phòng mở chức năng CNTT`,
+            media: [],
+          },
+          room_11: {
+            title: `Phòng mở chức năng CNTT`,
+            media: [],
+          },
+          room_12: {
+            title: `Sân thượng`,
+            media: [],
+          },
+          room_13: {
+            title: `Hành lang`,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-4',
+        data: {
+          room_1: {
             title: `
-            Phòng HV 08 1A
+            Đào tạo lập trình nhúng
             <br />
             <br />
-            Diện tích: 39m2
-          `,
+            Diện tích: 84m2
+            `,
+            media: [],
+          },
+          room_2: {
+            title: 'Sảnh nghỉ giải lao',
+            media: [],
+          },
+          room_3: {
+            title: `
+            Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM
+            <br />
+            <br />
+            Diện tích: 255m2
+            `,
+            media: [],
+          },
+          room_4: {
+            title: 'Sảnh nghỉ giải lao',
+            media: [],
+          },
+          room_5: {
+            title: `
+            Đào tạo lập trình nhúng
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
+            media: [],
+          },
+          room_6: {
+            title: `
+            Đào tạo quản trị mạng và hệ thống
+            <br />
+            <br />
+            Diện tích: 84m2
+            `,
+            media: [],
+          },
+          room_7: {
+            title: 'Cầu thang bộ',
+            media: [],
+          },
+          room_8: {
+            title: 'Thang máy',
+            media: [],
+          },
+          room_9: {
+            title: 'Sảnh tầng 4',
+            media: [],
+          },
+          room_10: {
+            title: 'WC',
+            media: [],
+          },
+          room_11: {
+            title: 'Kỹ thuật',
+            media: [],
+          },
+          room_12: {
+            title: 'Cầu thang thoát hiểm',
+            media: [],
+          },
+          room_13: {
+            title: `
+            Đào tạo trực tuyến
+            <br />
+            <br />
+            Diện tích: 63m2
+            `,
+            media: [],
+          },
+          room_14: {
+            title: 'Hành lang',
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-5',
+        data: {
+          room_1: {
+            title: `
+            CIVIL SERVER FARM
+            <br />
+            <br />
+            Diện tích: 278m2
+            `,
+            media: [
+              {
+                src: 'https://tasp.vn/uploads/datacenter.jpg',
+                opts: {
+                  caption: 'Phòng Datacenter',
+                  thumb: 'https://tasp.vn/uploads/datacenter.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/datacenter2.jpg',
+                opts: {
+                  caption: 'Phòng Datacenter',
+                  thumb: 'https://tasp.vn/uploads/datacenter2.jpg',
+                },
+              },
+              {
+                src: 'https://tasp.vn/uploads/datacenter3.jpg',
+                opts: {
+                  caption: 'Phòng Datacenter',
+                  thumb: 'https://tasp.vn/uploads/datacenter3.jpg',
+                },
+              },
+            ],
+          },
+          room_2: {
+            title: `
+            MIUTARY SERVER FARM
+            <br />
+            <br />
+            Diện tích: 150m2
+            `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            PHÒNG HỌP
+            <br />
+            <br />
+            Diện tích: 22m2
+            `,
+            media: [],
+          },
+          room_4: {
+            title: 'THANG BỘ',
+            media: [],
+          },
+          room_5: {
+            title: `
+            KHO KỸ THUẬT
+            <br />
+            <br />
+            Diện tích: 22m2
+            `,
+            media: [],
+          },
+          room_6: {
+            title: 'NHÀ VỆ SINH',
+            media: [],
+          },
+          room_7: {
+            title: 'SẢNH TẦNG 5',
+            media: [],
+          },
+          room_8: {
+            title: 'THANG MÁY',
+            media: [],
+          },
+          room_9: {
+            title: 'CẦU THANG',
+            media: [],
+          },
+          room_10: {
+            title: `
+            PHÒNG LÀM VIỆC
+            <br />
+            <br />
+            Diện tích: 42m2
+            `,
+            media: [],
+          },
+        },
+      },
+      {
+        key: 'floor-6',
+        data: {
+          room_1: {
+            title: `
+            BATTERY FARM
+            <br />
+            <br />
+            Diện tích: 92m2
+            `,
             media: [],
           },
           room_2: {
             title: `
-          Phòng HV 07 1A
-          <br />
-          <br />
-          Diện tích: 39m2
-        `,
+            UPS ROOM
+            <br />
+            <br />
+            Diện tích: 32m2
+            `,
+            media: [],
+          },
+          room_3: {
+            title: `
+            CIVIL SNOC
+            <br />
+            <br />
+            Diện tích: 62m2
+            `,
+            media: [],
+          },
+          room_4: {
+            title: `
+            MILITARY SNOC
+            <br />
+            <br />
+            Diện tích: 62m2
+            `,
+            media: [],
+          },
+          room_5: {
+            title: 'KHO KỸ THUẬT',
+            media: [],
+          },
+          room_6: {
+            title: 'NHÀ VỆ SINH',
+            media: [],
+          },
+          room_7: {
+            title: 'SẢNH TẦNG 6',
+            media: [],
+          },
+          room_8: {
+            title: 'THANG MÁY',
+            media: [],
+          },
+          room_9: {
+            title: 'THANG BỘ',
             media: [],
           },
         },
@@ -1368,7 +1747,7 @@ const data = [
   },
 ];
 
-var query = '(min-width: 576px)';
+var query = '(min-width: 991px)';
 var media = window.matchMedia(query);
 
 const defaultOptionsMapster = {
@@ -1408,22 +1787,11 @@ let content_floor_office = {
 };
 
 const initLoadData = () => {
-  const floor0 = $('#floor-0');
-  const floor1A = $('#floor-1A');
-  const floor1B = $('#floor-1B');
-  const floor1C = $('#floor-1C');
-  floor0.mapster(handlerMapsterFloor0(content_floor_0));
-  floor1A.mapster(handlerMapsterFloor0(content_floor_0));
-  floor1B.mapster(handlerMapsterFloor0(content_floor_0));
-  floor1C.mapster(handlerMapsterFloor0(content_floor_0));
-
   //setup Another Floor
 
   for (const office of data) {
     for (const floorData of office.floor) {
       const _querySelector = $(`#${office.offices}-${floorData.key}`);
-      // console.log(`#${office.offices}-${floorData.key}`);
-
       const listKeyStyle = [];
       for (const [key, value] of Object.entries(floorData.data)) {
         if (value.media.length > 0) {
@@ -1433,8 +1801,15 @@ const initLoadData = () => {
       _querySelector.mapster(handlerMapster(floorData.data, listKeyStyle));
     }
   }
+};
 
-  // Reset Select
+const handleActiveFancyBox = (dataFancyBox) => {
+  $.fancybox.open(dataFancyBox, {
+    loop: false,
+  });
+};
+
+const handleChangeSelect = () => {
   originGroupFloor = $('#offices').val();
 
   if (originGroupFloor !== 'office-0') {
@@ -1442,12 +1817,6 @@ const initLoadData = () => {
   } else {
     $('#photos').removeClass('active');
   }
-};
-
-const handleActiveFancyBox = (dataFancyBox) => {
-  $.fancybox.open(dataFancyBox, {
-    loop: false,
-  });
 };
 
 const handlerMapster = (contentFloor, listKeyStyle) => {
@@ -1490,34 +1859,25 @@ const handlerMapster = (contentFloor, listKeyStyle) => {
       }
     },
     onClick: function (e) {
-      // var fancybox = new Fancybox({
-      //   selector: '.my-fancybox',
-      // });
-
-      // fancybox.render('<h1>Hello, world!</h1>');
-      // Fancybox.show([{ src: '#dialog-content', type: 'inline' }]);
-
       if (contentFloor[e.key].media.length > 0) {
         handleActiveFancyBox(contentFloor[e.key].media);
       }
 
-      // if (media.matches) {
-      //   if (contentFloor[e.key].media.length > 0) {
-      //     handleActiveFancyBox(contentFloor[e.key].media);
-      //   }
-      // }
-      // if (!media.matches) {
-      //   $(this).tooltipster({
-      //     content: contentFloor[e.key].title, // Nội dung tooltip
-      //     theme: 'tooltipster-custom', // Thay đổi theme theo ý muốn
-      //     trigger: 'click', // Hiển thị tooltip khi hover
-      //     interactive: true, // Cho phép tương tác với tooltip
-      //     contentAsHTML: true, // Cho phép HTML trong tooltip content
-      //     animation: 'grow',
-      //   });
+      if (!media.matches && contentFloor[e.key].media.length === 0) {
+        $(this).tooltipster({
+          content: contentFloor[e.key].title, // Nội dung tooltip
+          theme: 'tooltipster-custom', // Thay đổi theme theo ý muốn
+          trigger: 'hover', // Hiển thị tooltip khi hover
+          interactive: true, // Cho phép tương tác với tooltip
+          contentAsHTML: true, // Cho phép HTML trong tooltip content
+          animation: 'grow',
+          // timer: 500,
+          autoClose: true,
+        });
 
-      //   $(this).tooltipster('open');
-      // }
+        $(this).tooltipster('open');
+        // $(this).tooltipster('close');
+      }
     },
   };
 };
@@ -1542,8 +1902,9 @@ const handlerMapsterFloor0 = (contentFloor) => {
     },
 
     onMouseout: function () {
-      $(this).tooltipster('close');
       if (media.matches) {
+        $(this).tooltipster('close');
+
         // Đóng tooltip khi không hover nữa
       }
     },
@@ -1592,8 +1953,6 @@ const handlerMapsterOffice = (contentFloor) => {
       $(this).tooltipster('close');
     },
     onClick: function (e) {
-      console.log('Click::', e);
-
       const valueSelect = e.key.split('_')[1] || 0;
       $('#offices')
         .val('office-' + valueSelect)
@@ -1613,12 +1972,22 @@ $(document).ready(function () {
 
     const floorOffice = $('#floor-office');
     floorOffice.mapster(handlerMapsterOffice(content_floor_office));
-    initLoadData();
+    const floor0 = $('#floor-0');
+    const floor1A = $('#floor-1A');
+    const floor1B = $('#floor-1B');
+    const floor1C = $('#floor-1C');
+    floor0.mapster(handlerMapsterFloor0(content_floor_0));
+    floor1A.mapster(handlerMapsterFloor0(content_floor_0));
+    floor1B.mapster(handlerMapsterFloor0(content_floor_0));
+    floor1C.mapster(handlerMapsterFloor0(content_floor_0));
+
+    // Reset Select
+    handleChangeSelect();
   });
 });
 
 $(document).ready(function () {
-  initLoadData();
+  // initLoadData();
 
   $('#photos').change(function () {
     _data_image = $('option:selected', this).data('image');
@@ -1627,5 +1996,7 @@ $(document).ready(function () {
     $('.active').removeClass('active');
     $(`#group-${originGroupFloor} ${_data_image}`).addClass('active');
     initLoadData();
+
+    handleChangeSelect();
   });
 });
