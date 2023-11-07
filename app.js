@@ -169,47 +169,27 @@ const data = [
         key: 'floor-4',
         data: {
           room_1: {
-            title: `
-            Đào tạo lập trình nhúng
-            <br />
-            <br />
-            Diện tích: 84m2
-            `,
+            title: `Phòng mở chức năng đào tạo CNTT`,
             media: [],
           },
           room_2: {
-            title: 'Sảnh nghỉ giải lao',
+            title: 'Cầu thang bộ',
             media: [],
           },
           room_3: {
-            title: `
-            Phòng thực hành tổng hợp an toàn thông tin - Tác chiến KGM
-            <br />
-            <br />
-            Diện tích: 255m2
-            `,
+            title: `Phòng kỹ thuật`,
             media: [],
           },
           room_4: {
-            title: 'Sảnh nghỉ giải lao',
+            title: 'Nhà vệ sinh',
             media: [],
           },
           room_5: {
-            title: `
-            Đào tạo lập trình nhúng
-            <br />
-            <br />
-            Diện tích: 84m2
-            `,
+            title: `Thang máy`,
             media: [],
           },
           room_6: {
-            title: `
-            Đào tạo quản trị mạng và hệ thống
-            <br />
-            <br />
-            Diện tích: 84m2
-            `,
+            title: `Cầu thang bộ`,
             media: [],
           },
           room_7: {
@@ -217,35 +197,14 @@ const data = [
             media: [],
           },
           room_8: {
-            title: 'Thang máy',
+            title: 'Phòng mở chức năng đào tạo CNTT',
             media: [],
           },
           room_9: {
-            title: 'Sảnh tầng 4',
+            title: 'Phòng mở chức năng đào tạo CNTT',
             media: [],
           },
           room_10: {
-            title: 'WC',
-            media: [],
-          },
-          room_11: {
-            title: 'Kỹ thuật',
-            media: [],
-          },
-          room_12: {
-            title: 'Cầu thang thoát hiểm',
-            media: [],
-          },
-          room_13: {
-            title: `
-            Đào tạo trực tuyến
-            <br />
-            <br />
-            Diện tích: 63m2
-            `,
-            media: [],
-          },
-          room_14: {
             title: 'Hành lang',
             media: [],
           },
@@ -255,52 +214,15 @@ const data = [
         key: 'floor-5',
         data: {
           room_1: {
-            title: `
-            CIVIL SERVER FARM
-            <br />
-            <br />
-            Diện tích: 278m2
-            `,
-            media: [
-              {
-                src: 'https://tasp.vn/uploads/datacenter.jpg',
-                opts: {
-                  caption: 'Phòng Datacenter',
-                  thumb: 'https://tasp.vn/uploads/datacenter.jpg',
-                },
-              },
-              {
-                src: 'https://tasp.vn/uploads/datacenter2.jpg',
-                opts: {
-                  caption: 'Phòng Datacenter',
-                  thumb: 'https://tasp.vn/uploads/datacenter2.jpg',
-                },
-              },
-              {
-                src: 'https://tasp.vn/uploads/datacenter3.jpg',
-                opts: {
-                  caption: 'Phòng Datacenter',
-                  thumb: 'https://tasp.vn/uploads/datacenter3.jpg',
-                },
-              },
-            ],
+            title: `Phòng mở chức năng đào tạo CNTT`,
+            media: [],
           },
           room_2: {
-            title: `
-            MIUTARY SERVER FARM
-            <br />
-            <br />
-            Diện tích: 150m2
-            `,
+            title: `Cầu thang bộ`,
             media: [],
           },
           room_3: {
-            title: `
-            PHÒNG HỌP
-            <br />
-            <br />
-            Diện tích: 22m2
-            `,
+            title: `Phòng kỹ thuật`,
             media: [],
           },
           room_4: {
@@ -308,37 +230,15 @@ const data = [
             media: [],
           },
           room_5: {
-            title: `
-            KHO KỸ THUẬT
-            <br />
-            <br />
-            Diện tích: 22m2
-            `,
+            title: `Nhà vệ sinh`,
             media: [],
           },
           room_6: {
-            title: 'NHÀ VỆ SINH',
+            title: 'Thang máy',
             media: [],
           },
           room_7: {
-            title: 'SẢNH TẦNG 5',
-            media: [],
-          },
-          room_8: {
-            title: 'THANG MÁY',
-            media: [],
-          },
-          room_9: {
-            title: 'CẦU THANG',
-            media: [],
-          },
-          room_10: {
-            title: `
-            PHÒNG LÀM VIỆC
-            <br />
-            <br />
-            Diện tích: 42m2
-            `,
+            title: 'Cầu thang bộ',
             media: [],
           },
         },
@@ -347,59 +247,43 @@ const data = [
         key: 'floor-6',
         data: {
           room_1: {
-            title: `
-            BATTERY FARM
-            <br />
-            <br />
-            Diện tích: 92m2
-            `,
+            title: `Phòng nghỉ chuyên gia 01`,
             media: [],
           },
           room_2: {
-            title: `
-            UPS ROOM
-            <br />
-            <br />
-            Diện tích: 32m2
-            `,
+            title: `Phòng nghỉ chuyên gia 02`,
             media: [],
           },
           room_3: {
-            title: `
-            CIVIL SNOC
-            <br />
-            <br />
-            Diện tích: 62m2
-            `,
+            title: `Phòng nghỉ chuyên gia 03`,
             media: [],
           },
           room_4: {
-            title: `
-            MILITARY SNOC
-            <br />
-            <br />
-            Diện tích: 62m2
-            `,
+            title: `Phòng nghỉ chuyên gia 04`,
             media: [],
           },
           room_5: {
-            title: 'KHO KỸ THUẬT',
+            title: 'Phòng nghỉ chuyên gia 05',
             media: [],
           },
           room_6: {
-            title: 'NHÀ VỆ SINH',
+            title: 'Phòng nghỉ chuyên gia 06',
             media: [],
           },
           room_7: {
-            title: 'SẢNH TẦNG 6',
+            title: 'Phòng ngủ Master',
             media: [],
           },
           room_8: {
-            title: 'THANG MÁY',
+            title: 'Thang máy',
             media: [],
           },
           room_9: {
-            title: 'THANG BỘ',
+            title: 'Cầu thang bộ',
+            media: [],
+          },
+          room_10: {
+            title: 'Sảnh',
             media: [],
           },
         },
